@@ -1,0 +1,46 @@
+.filter
+   .filter__route-item
+      svg.icon.icon-switch
+         use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-switch')
+      svg.icon.icon-fo-icon-2.icon-grid-display
+         use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fo-icon-2')
+      i.icon.icon-grid-display
+   #search.filter__search
+      input.search__text-field.js-search__text-field(type='text', placeholder="")
+      .search-drop.search-drop--filter.js-search-drop.is-hidden
+   .filter__item.js-filter__item.filter__action-item( data-action="sale" )
+      i
+         svg.icon.icon-badge
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+      span.fi-text Акции
+   .filter__item.js-filter__item.filter__col-item( data-action="collection" )
+      i
+         svg.icon.icon-collection
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+      span.fi-text Коллекции
+   .filter__item.js-filter__item.filter__events-item( data-action="event" )
+      i
+         svg.icon.icon-calendar
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+      span.fi-text События
+   .filter__item.js-filter__item.filter__news-item( data-action="news" )
+      i
+         svg.icon.icon-rupor
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+      span.fi-text Новости
+   .filter__favor.js-filter__favor
+      .badge.badge--favor
+         .badge__bottom
+         svg.icon.icon-star.badge__ico.badge__ico--favor
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+   .filter__droplist-item
+      .filter__droplist-point.js-filter__droplist-point
+         i.filter__droplist-ico
+         span.fi-text Категории
+      .filter-droplist.js-filter-droplist.is-hidden
+         ul.filter-droplist__list
+   .filter__cleaning.js-filter__cleaning
+      span.fi-text Очистить фильтр
+      i
+         svg.icon.icon-close
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close')

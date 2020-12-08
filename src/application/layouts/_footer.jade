@@ -1,0 +1,41 @@
+block footer
+   footer.l-footer
+      .centered-content
+         .footer-top-arrow
+         .footer
+            .footer__col.footer__logo-wrap
+               img.footer__logo(src='/img/foot-logo.png', alt='')
+               .footer__addr ул. Авиаконструктора Микояна, 10
+            .footer__col.footer__work-time
+               svg.footer__work-time-ico.icon.icon-clock
+                 use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-clock')
+               .footer__week
+                  .footer__week-days.footer__week-days--first
+                     | ПН - ЧТ + ВС:
+                     br
+                     |                 10:00 - 22:00
+                  .footer__week-days
+                     | ПТ - СБ:
+                     br
+                     |                 10:00 - 23:00
+            form.footer__col.footer__col--news(action='#', method='post')
+               label.footer__news-label(for='get-news') Получить новости
+               .footer__news-tfield-wrap
+                  input#get-news.footer__text-field(type='text', placeholder='e-mail', required='')
+                  button.footer__btn-sbmt(type='submit')
+                     svg.icon.icon-arrow-right.footer__btn-sbmt-ico
+                        use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-arrow-right')
+            ul.footer__col.footer__nav
+               li.footer__nav-item
+                  a.footer__link(href='/contacts.html') Контакты
+               li.footer__nav-item
+                  a.footer__link(href='/dealers.html') Арендаторам
+               li.footer__nav-item
+                  a.footer__link(href='#') Справочная информация
+            ul.footer__col.footer__nav
+               li.footer__nav-item
+                  a.footer__link(href='/jobs.html') Работа в авиапарке
+               li.footer__nav-item
+                  a.footer__link(href='#') Реклама и пресса
+               li.footer__nav-item
+                  a.footer__link(href='/about.html') Об авиапарке

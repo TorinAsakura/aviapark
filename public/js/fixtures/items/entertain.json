@@ -1,0 +1,44 @@
+{
+  "1408": {
+    "id": 1408,
+    "map_id": "3003.1",
+    "logo": "/site/assets/files/1408/bionic.png",
+    "title": "BIONIС FITNESS & SPORT",
+    "section": "entertain",
+    "section_title": "Развлечения",
+    "category": "fitness",
+    "category_title": "Фитнес",
+    "floor": [
+      "3"
+    ]
+  },
+  "1492": {
+    "id": 1492,
+    "map_id": "4003",
+    "logo": "/site/assets/files/1492/karo.jpg",
+    "title": "KAPO Sky 17",
+    "section": "entertain",
+    "section_title": "Развлечения",
+    "category": "cinema",
+    "category_title": "Кино",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "news"
+    ]
+  },
+  "1704": {
+    "id": 1704,
+    "map_id": "4086",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Mega Ice",
+    "section": "entertain",
+    "section_title": "Развлечения",
+    "category": "skating",
+    "category_title": "Каток",
+    "floor": [
+      "4"
+    ]
+  }
+}

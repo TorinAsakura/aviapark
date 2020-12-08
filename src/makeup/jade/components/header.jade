@@ -1,0 +1,107 @@
+include ../mixins/bemto
+
++b('header')#js-l-header.l-header
+  +b.l-header-top
+    +b.centered-content
+      +b.mobile-nav.navbar-toggle
+      +b.lang
+        +e('a').link.is-active(href="#") Рус.
+        +e('a').link(href="#") Eng.
+      +b.shedule
+        +e('svg').ico.icon.icon-clock
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-clock')
+        +e.info-box
+          +e.text-info Сегодня открыт до 22:00
+          +e('a').link.js-shedule__link(href="#") Полное расписание
+          +b.shedule-information.js-shedule-information.is-hidden
+            +e.head Время работы
+            +e.info
+              +e.current-day.day-3 Сегодня
+              +e('table').table-info
+                tr
+                  th Пн
+                  th Вт
+                  th Ср
+                  th Чт
+                  th Пт
+                  th Сб
+                  th Вс
+                tr
+                  +e('td').x x
+                  td
+                    | 10:00
+                    br
+                    | 22:00
+                  td
+                    | 10:00
+                    br
+                    | 22:00
+                  td
+                    | 10:00
+                    br
+                    | 22:00
+                  td
+                    | 10:00
+                    br
+                    | 22:00
+                  td
+                    | 10:00
+                    br
+                    | 22:00
+                  +e('td').x x
+      +b('img').site-logo(src="img/site-logo.png", alt="Aviapark")
+      +b.social
+        +e('span').text Оставайтесь с нами:
+        +e('ul').list
+          +e('li').item
+            +e('a').link(href="#")
+              +e('svg').ico.icon.icon-vk
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-vk')
+          +e('li').item
+            +e('a').link(href="#")
+              +e('svg').ico.icon.icon-facebook
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-facebook')
+          +e('li').item
+            +e('a').link(href="#")
+              +e('svg').ico.icon.icon-instagram
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-instagram')
+          +e('li').item
+            +e('a').link(href="#")
+              +e('svg').ico.icon.icon-youtube
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-youtube')
+          +e('li').item
+            +e('a').link(href="#")
+              +e('svg').ico.icon.icon-odnoklassniki
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-odnoklassniki')
+    +b('svg').ico.icon.icon-arrow-bottom-2.header-arrow
+      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-arrow-bottom-2')
+  +b.l-header-nav
+    +b.centered-content
+      +b('nav').nav
+        +e('ul').list
+          +e('li').item
+            +e('a').link(href="#") Магазины
+          +e('li').item
+            +e('a').link(href="#") Еда
+          +e('li').item
+            +e('a').link(href="#") Развлечения
+          +e('li').item
+            +e('a').link(href="#") Дети
+          +e('li').item
+            +e('a').link(href="#") Кино
+          +e('li').item
+            +e('a').link(href="#") Услуги
+          +e('li').item
+            +e('a').link(href="#") Акции и события
+      +b('a').search-btn.js-search-btn(href="#")
+        +e('svg').ico.icon.icon-search
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-search')
+      +b.phone-number 8 (495) 644-45-44
+      +b('img').header-nav-logo(data-no-retina="", src="img/nav-logo@2x.png", alt="", width="120", height="13")
+      +b.header-nav-btns
+        a.btn.btn--normal.btn--fill(href="#")
+          span.btn--fill__text Как добраться
+        a.btn.btn--fill.btn--favor.btn--head-last(href="#")
+          span.btn--fill__text Избранное
+          svg.ico.icon.btn--favor__star
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')

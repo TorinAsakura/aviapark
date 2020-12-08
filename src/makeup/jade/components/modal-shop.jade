@@ -1,0 +1,158 @@
+//Modal
+#link-modal-shop.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .modal-header.shop-img-bg
+                a.modal-header-info.modal-header-info-name
+                    span.meta-shop-category магазины
+                    | &#32;/&#32;
+                    span.meta-shop-name H&M
+                a.modal-header-info.modal-header-info-photo
+                    | Посмотреть&#32;
+                    span.meta-numbers-photo 4
+                    | &#32;фото
+                .shop-img-helper
+                img.shop-img-label(src='img/brands/2.png')
+                i.avv.avv-2x.av-cross2.avv-inverse.pull-right(alt='Close', type='button', data-dismiss='modal', aria-label='Close')
+                .groupe-favourite.pull-bottom-right(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                    a.avv-stack
+                        i.avv.av-circle.avv-stack-2x.avv-dark-background.avv-margin
+                        i.avv.av-star.avv-stack-1x.avv-color-active
+            .modal-body.modal-scroll-area
+                .row-information.well
+                    ul.modal-info-block
+                        li
+                            p.shop-name H&M
+                        li
+                            a.shop-tel_number(href='tel:+7495214182') +7 495 214-182
+                    ul.modal-info-block
+                        li
+                            p.shop-category Магазин одежды, магазин детской одежды
+                        li
+                            p.shop-work_time Сегодня работает до 23:00
+                //TODO: make accordion with animate
+                #modal-accordion
+                    .collapse.in.collapseOne
+                        .row-information.well
+                            ul.shop-info-block
+                                li
+                                    p.shop-tag-title Виды одежды (TAGS)
+                                li
+                                    a.shop-parking_place Удобный заезд в автопарк
+                            ul.shop-info-block
+                                li
+                                    p.shop-tags женская / детская / мужская / h&m / мода
+                                li
+                                    a.shop-parking_path Показать удобную парковку
+                    .collapse.collapseTwo
+                        .well
+                            ul.shop-all-info
+                                li
+                                    p.shop-working_week Пн-Чт + Вс 10:00-22:00 / Пт-Сб 10:00-23:00
+                                li
+                                    p.shop-level 1 этаж
+                                li
+                                    a.shop-site_link(href='www.hm.com') www.hm.com
+                            .modal-social
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-vk.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-fb.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-insta.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-youtube.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-ok.avv-stack-1x.avv-social-topbar
+                        .shop-all-hr
+                        .well
+                            p 123
+                            p 123
+                    .wrapper-show_more
+                        button.btn-av.btn-show_more(href='#', data-toggle='collapse', data-parent="#modal-accordion",
+                        role='tab', data-target=".collapseTwo", aria-expanded='false') Показать еще
+                    .wrapper-show_more-after
+                    .well
+                        div.block-special-width.pull-left
+                            article.block-special.block-special-news
+                                .meta-preview
+                                    img.img-responsive(src='img/sales/chiled-bicycle.jpg')
+                                    .meta-badge KidsPlace
+                                    .dropdown.meta-share
+                                        a#dLabel.avv-stack.share-button-icon(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                            i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-dark-background.avv-margin
+                                            i.avv.av-share-icon.avv-stack-1x.avv-color-active
+                                        ul.dropdown-menu.dropdown-share(role='menu', aria-labelledby='dLabel')
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-vk-color.avv-margin
+                                                    i.avv.av-vk.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-fb-color.avv-margin
+                                                    i.avv.av-fb.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-ok-color.avv-margin
+                                                    i.avv.av-ok.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-dark-background.avv-margin
+                                                    i.avv.av-envelope.avv-stack-1x.avv-inverse
+                                    .groupe-favourite(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                                        a.avv-stack
+                                            i.avv.av-circle-full.avv-stack-2x.avv-dark-background.avv-margin
+                                            i.avv.av-star.avv-stack-1x.avv-color-active
+                                h4.meta-special-name
+                                    | Очень крутой детский велосипед! В нем много качественных сторон!
+                                .meta-special-option
+                                    i.av-rupor.avv-3x
+                                    a(href='')
+                                        | Показать новость
+                        div.block-special-width.pull-right
+                            article.block-special.block-special-calendar
+                                .meta-preview
+                                    img.img-responsive(src='img/sales/boombox.jpg')
+                                    .meta-badge Media Market
+                                    .dropdown.meta-share
+                                        a#dLabel.avv-stack.share-button-icon(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                            i.avv.av-circle-full.circle-scale.avv-stack-2x.avv-dark-background.avv-margin
+                                            i.avv.av-share-icon.avv-stack-1x.avv-color-active
+                                        ul.dropdown-menu.dropdown-share(role='menu', aria-labelledby='dLabel')
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full-full.avv-stack-2x.avv-vk-color.avv-margin
+                                                    i.avv.av-vk.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.avv-stack-2x.avv-fb-color.avv-margin
+                                                    i.avv.av-fb.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.avv-stack-2x.avv-ok-color.avv-margin
+                                                    i.avv.av-ok.avv-stack-1x.avv-inverse
+                                            li
+                                                span.avv-stack
+                                                    i.avv.av-circle-full.avv-stack-2x.avv-dark-background.avv-margin
+                                                    i.avv.av-envelope.avv-stack-1x.avv-inverse
+                                    .groupe-favourite(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                                        a.avv-stack
+                                            i.avv.av-circle-full.avv-stack-2x.avv-dark-background.avv-margin
+                                            i.avv.av-star.avv-stack-1x.avv-color-active
+                                h4.meta-special-name Harman / Kardon! Скидка 50%!!
+                                .meta-special-option
+                                    i.av-calendar.avv-3x
+                                    a(href='')
+                                        | с 1 апреля по 14 апреля
+                                .meta-special-cost
+                                    .meta-special-percent
+                                        i.av-discount.avv-3x.avv-color-second-text
+                                        span 50%
+                                    .meta-special-price
+                                        span.meta-special-price-number 3500
+                                        span.meta-special-price-currency руб

@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Aviapark
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='/css/styles.css', rel='stylesheet')
+    script(src='/js/modernizr.js')
+    script(src='//use.typekit.net/ibx6xen.js')
+    script.
+      try{Typekit.load();}catch(e){}
+  body
+    .l-wrapper
+      #js-l-pusher.l-pusher
+      include _header
+      include _content
+      include _footer
+    .overlay.is-hidden
+    include _nav_mobile
+    include _search
+    #tooltips
+    img(id='icons-svg', src='/img/icons.svg', alt='')
+    script(src='/js/vendor.js')
+    script(src='/js/require.js', data-main="/js/app")

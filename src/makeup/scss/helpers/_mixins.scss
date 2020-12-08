@@ -1,0 +1,85 @@
+$colors: (
+  default: #3d4252,
+  link: #00a8ff,
+  placeholder: #c3c3c3,
+  yellow: #ffc600,
+  pink: #fcadc5,
+  purple: #a15e9b,
+  aquamarine: #a8f0de,
+  skyblue: #cbf5ff
+);
+$fonts: (
+  default: #{"Corbel", sans-serif},
+  hou: #{"Houschka Pro", sans-serif}
+);
+
+@mixin us($val) {
+  @if $val == none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  } @else {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    cursor: text;
+  }
+}
+@mixin line($color, $color2: false) {
+  color: $color;
+  border-bottom: 1px solid rgba($color, .35);
+  @if $color2 != false {
+    &:hover {
+      color: $color2;
+      border-bottom-color: rgba($color2, .35);
+    }
+  } @else {
+    &:hover {
+      border-bottom: 0;
+    }
+  }
+}
+
+@mixin mq($breakpoint) {
+  $mq-xs: "(min-width: 320px) and (max-width: 767px)";
+  $mq-s: "(min-width: 768px) and (max-width: 999px)";
+  $mq-m: "(min-width: 1000px) and (max-width: 1199px)";
+  $mq-l: "(min-width: 1200px) and (max-width: 1399px)";
+  $mq-xl: "(min-width: 1400px)";
+  @if $breakpoint == xs {
+    @media #{$mq-xs} { @content; }
+  }
+  @else if $breakpoint == s {
+    @media #{$mq-s} { @content; }
+  }
+  @else if $breakpoint == m {
+    @media #{$mq-m}  { @content; }
+  }
+  @else if $breakpoint == l {
+    @media #{$mq-l}  { @content; }
+  }
+  @else if $breakpoint == xl {
+    @media #{$mq-xl}  { @content; }
+  }
+}
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+@function font($key) {
+  @if map-has-key($fonts, $key) {
+    @return map-get($fonts, $key);
+  }
+  @warn "Unknown `#{$key}` in $fonts.";
+  @return null;
+}
+
+%clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

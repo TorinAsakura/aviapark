@@ -1,0 +1,51 @@
+.badge.badge--favor.badge--favor-stock.js-tooltip-top(data-tooltip='Добавить в избранное')
+   .badge__bottom
+   svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+   use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+a.stock-item__img-link(href="/actions/map/#{id}-#{name}")
+   img.stock-item__img(data-no-retina='', data-src="http://api.avia.kknopka.ru/#{image_promo}", alt='')
+.stock-item__info
+   .stock-item__shop= parent_title
+   - if(_.isEmpty(longtitle))
+      .stock-item__desc= title
+   - else
+      .stock-item__desc= longtitle
+   .stock-item__details
+      - if(!_.isEmpty(date_start))
+         i.stock-item__calendar-ico
+            svg.icon.icon-calendar
+               use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+         span.stock-item__detail-text С #{date_start}
+         - if(!_.isEmpty(date_end))
+            |  по #{date_end}
+      - else
+         - if(type == 'sale')
+            i.stock-item__discount-ico
+               svg.ico.icon.icon-badge
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+         - else if(type == 'collection')
+            i.stock-item__collection-ico
+               svg.icon.icon-collection
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+         - else if(type == 'news')
+            i.stock-item__rupor-ico
+               svg.icon.icon-rupor
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+         - else if(type == 'event')
+            i.stock-item__calendar-ico
+               svg.icon.icon-calendar
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+         a.stock-item__detail-text-link(href="/actions/map/#{id}-#{name}") Показать #{type_rr}
+- if(!_.isEmpty(discount) && !_.isEmpty(price))
+   .stock-item__footer
+      - if(!_.isEmpty(discount))
+         .stock-item__discount
+            i.stock-item__discount-ico.stock-item__discount-ico--perc
+               svg.ico.icon.icon-badge
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+            = discount
+      - if(!_.isEmpty(price))
+         .stock-item__price
+            span.stock-item__price-val= price
+            span.stock-item__currency руб

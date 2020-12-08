@@ -1,0 +1,2380 @@
+{
+  "1375": {
+    "id": 1375,
+    "map_id": "3671",
+    "logo": "/site/assets/files/1375/unbenannt_6.jpg",
+    "title": "21 shop",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ],
+    "action_types": {
+      "0": "sale",
+      "3": "news"
+    }
+  },
+  "1378": {
+    "id": 1378,
+    "map_id": "2097",
+    "logo": "/site/assets/files/1378/unbenannt_7.jpg",
+    "title": "79 Anson Road",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1379": {
+    "id": 1379,
+    "map_id": "2085",
+    "logo": "/site/assets/files/1379/8marta.png",
+    "title": "8 Марта",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1381": {
+    "id": 1381,
+    "map_id": "1058",
+    "logo": "/site/assets/files/1381/unbenannt_8.jpg",
+    "title": "Adamas",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1385": {
+    "id": 1385,
+    "map_id": "2090",
+    "logo": "/site/assets/files/1385/aerospace_4.jpg",
+    "title": "Aerospace",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1386": {
+    "id": 1386,
+    "map_id": "3911",
+    "logo": "/site/assets/files/1386/photo.jpg",
+    "title": "Affliction",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1391": {
+    "id": 1391,
+    "map_id": "2069",
+    "logo": "/site/assets/files/1391/unbenannt_9.jpg",
+    "title": "Alessandro Frenza",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1392": {
+    "id": 1392,
+    "map_id": "3062",
+    "logo": "/site/assets/files/1392/imgo-3.jpeg",
+    "title": "AlpIndustria",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1394": {
+    "id": 1394,
+    "map_id": "1041.2",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Ameli Flora",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "1"
+    ]
+  },
+  "1395": {
+    "id": 1395,
+    "map_id": "3059.3",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Anatolia Shoes",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1396": {
+    "id": 1396,
+    "map_id": "3903",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Anna Chapman",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ],
+    "action_types": [
+      "event"
+    ]
+  },
+  "1397": {
+    "id": 1397,
+    "map_id": "1091",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Apteka - A.V.E.",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "1"
+    ]
+  },
+  "1399": {
+    "id": 1399,
+    "map_id": "1111",
+    "logo": "/site/assets/files/1399/unbenannt_10.jpg",
+    "title": "Aubade",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "1"
+    ]
+  },
+  "1400": {
+    "id": 1400,
+    "map_id": "1003",
+    "logo": "/site/assets/files/1400/auchan.jpg",
+    "title": "Ашан",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "hypermarket",
+    "category_title": "Гипермаркет",
+    "floor": [
+      "1"
+    ]
+  },
+  "1401": {
+    "id": 1401,
+    "map_id": "2102",
+    "logo": "/site/assets/files/1401/baon_logo_8_.jpg",
+    "title": "Baon",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1405": {
+    "id": 1405,
+    "map_id": "1070",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Berconty",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "1"
+    ]
+  },
+  "1409": {
+    "id": 1409,
+    "map_id": "3054",
+    "logo": "/site/assets/files/1409/unbenannt_11.jpg",
+    "title": "Boardriders",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1411": {
+    "id": 1411,
+    "map_id": "3060",
+    "logo": "/site/assets/files/1411/unbenannt_12.jpg",
+    "title": "Bradex",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1413": {
+    "id": 1413,
+    "map_id": "1110",
+    "logo": "/site/assets/files/1413/cacharel_1.jpg",
+    "title": "Cacharel",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1415": {
+    "id": 1415,
+    "map_id": "2133",
+    "logo": "/site/assets/files/1415/camel_active_logo.jpg",
+    "title": "Camel Active",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1416": {
+    "id": 1416,
+    "map_id": "2020",
+    "logo": "/site/assets/files/1416/unbenannt_14.jpg",
+    "title": "Camper",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1418": {
+    "id": 1418,
+    "map_id": "2074",
+    "logo": "/site/assets/files/1418/carlo-pazolini-logo.jpg",
+    "title": "Carlo Pazolini",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1420": {
+    "id": 1420,
+    "map_id": "2063",
+    "logo": "/site/assets/files/1420/charuel-logo.jpg",
+    "title": "Charuel",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1421": {
+    "id": 1421,
+    "map_id": "1132",
+    "logo": "/site/assets/files/1421/.jpg.jpg",
+    "title": "CHKALOV",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1422": {
+    "id": 1422,
+    "map_id": "4066",
+    "logo": "/site/assets/files/1422/choupette-logo.jpg",
+    "title": "Choupette",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1426": {
+    "id": 1426,
+    "map_id": "1135",
+    "logo": "/site/assets/files/1426/corso-como-logo_1.jpg",
+    "title": "Corso Como",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "collection",
+      "sale"
+    ]
+  },
+  "1429": {
+    "id": 1429,
+    "map_id": "3056.1",
+    "logo": "/site/assets/files/1429/unbenannt_15.jpg",
+    "title": "Crocs",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1430": {
+    "id": 1430,
+    "map_id": "4057",
+    "logo": "/site/assets/files/1430/unbenannt_16.jpg",
+    "title": "De Salitto",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1431": {
+    "id": 1431,
+    "map_id": "1019,2021,3022",
+    "logo": "/site/assets/files/1431/debenhams_white_on_black.jpg",
+    "title": "Debenhams",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "hypermarket",
+    "category_title": "Гипермаркет",
+    "floor": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "1432": {
+    "id": 1432,
+    "map_id": "3003.2",
+    "logo": "/site/assets/files/1432/decatlon.jpg",
+    "title": "Decathlon",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1433": {
+    "id": 1433,
+    "map_id": "3053",
+    "logo": "/site/assets/files/1433/cypka.png",
+    "title": "День сурка",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1436": {
+    "id": 1436,
+    "map_id": "4070",
+    "logo": "/site/assets/files/1436/logo_site.jpg",
+    "title": "Детский мир",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1437": {
+    "id": 1437,
+    "map_id": "1074",
+    "logo": "/site/assets/files/1437/wo.jpg",
+    "title": "Дикая Орхидея",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "1"
+    ]
+  },
+  "1439": {
+    "id": 1439,
+    "map_id": "2089.2",
+    "logo": "/site/assets/files/1439/diva.png",
+    "title": "Diva",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1441": {
+    "id": 1441,
+    "map_id": "2137.2",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Dom Platkov",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1444": {
+    "id": 1444,
+    "map_id": "2019",
+    "logo": "/site/assets/files/1444/unbenannt_17.jpg",
+    "title": "Econica",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1448": {
+    "id": 1448,
+    "map_id": "1124.2",
+    "logo": "/site/assets/files/1448/unbenannt_18.jpg",
+    "title": "Elle",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1449": {
+    "id": 1449,
+    "map_id": "3627",
+    "logo": "/site/assets/files/1449/unbenannt_19.jpg",
+    "title": "Enjoy me",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "3"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1451": {
+    "id": 1451,
+    "map_id": "2085",
+    "logo": "/site/assets/files/1451/300_1.jpg",
+    "title": "ESTETICA",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "3"
+    ]
+  },
+  "1452": {
+    "id": 1452,
+    "map_id": "1095",
+    "logo": "/site/assets/files/1452/etam.jpg",
+    "title": "Etam",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale",
+      "collection"
+    ]
+  },
+  "1454": {
+    "id": 1454,
+    "map_id": "1051",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Expert Professional",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "1"
+    ]
+  },
+  "1456": {
+    "id": 1456,
+    "map_id": "1064",
+    "logo": "/site/assets/files/1456/fashion_galaxy.jpg",
+    "title": "Fashion Galaxy",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "1"
+    ]
+  },
+  "1457": {
+    "id": 1457,
+    "map_id": "2071",
+    "logo": "/site/assets/files/1457/logo_ff_new_2.jpg",
+    "title": "FiNN FLARE",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1458": {
+    "id": 1458,
+    "map_id": "3823",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Flash Dress",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1459": {
+    "id": 1459,
+    "map_id": "2078",
+    "logo": "/site/assets/files/1459/unbenannt_2.png",
+    "title": "Formula SNA",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "2"
+    ]
+  },
+  "1461": {
+    "id": 1461,
+    "map_id": "4054",
+    "logo": "/site/assets/files/1461/fox-in-socks-logo.jpg",
+    "title": "Fox In Socks",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1462": {
+    "id": 1462,
+    "map_id": "3015",
+    "logo": "/site/assets/files/1462/unbenannt_3.png",
+    "title": "Funday",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1464": {
+    "id": 1464,
+    "map_id": "1106",
+    "logo": "/site/assets/files/1464/gaastra_250.jpg",
+    "title": "Gaastra",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1467": {
+    "id": 1467,
+    "map_id": "1105",
+    "logo": "/site/assets/files/1467/gerarddarel_logo-11122013_2.jpg",
+    "title": "Gerard Darel",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "1",
+      "4"
+    ]
+  },
+  "1468": {
+    "id": 1468,
+    "map_id": "1099",
+    "logo": "/site/assets/files/1468/unbenannt_20.jpg",
+    "title": "Giovanni Gentile",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1469": {
+    "id": 1469,
+    "map_id": "1046",
+    "logo": "/site/assets/files/1469/gip_logo_blue.jpg",
+    "title": "Gipfel",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "1"
+    ]
+  },
+  "1470": {
+    "id": 1470,
+    "map_id": "2108.2",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Gold Invest Market",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "2"
+    ]
+  },
+  "1471": {
+    "id": 1471,
+    "map_id": "3589",
+    "logo": "/site/assets/files/1471/graziella_1.png",
+    "title": "Graziella",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "3"
+    ]
+  },
+  "1473": {
+    "id": 1473,
+    "map_id": "2064",
+    "logo": "/site/assets/files/1473/henderson.jpg",
+    "title": "Henderson",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1474": {
+    "id": 1474,
+    "map_id": "3587",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Hermitage",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1476": {
+    "id": 1476,
+    "map_id": "1094",
+    "logo": "/site/assets/files/1476/hogl.jpg",
+    "title": "HOEGL",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "1"
+    ]
+  },
+  "1477": {
+    "id": 1477,
+    "map_id": "1001,2001",
+    "logo": "/site/assets/files/1477/hoff.jpg",
+    "title": "Hoff",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "1",
+      "2"
+    ]
+  },
+  "1482": {
+    "id": 1482,
+    "map_id": "1017",
+    "logo": "/site/assets/files/1482/incanto.png",
+    "title": "Incanto",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "1"
+    ]
+  },
+  "1486": {
+    "id": 1486,
+    "map_id": "2029",
+    "logo": "/site/assets/files/1486/unbenannt_5.png",
+    "title": "Italyanka.ru",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1487": {
+    "id": 1487,
+    "map_id": "1023",
+    "logo": "/site/assets/files/1487/unbenannt_1_1.png",
+    "title": "Jo Malone London ",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "collection",
+      "event"
+    ]
+  },
+  "1488": {
+    "id": 1488,
+    "map_id": "1101.1",
+    "logo": "/site/assets/files/1488/joop.png",
+    "title": "JOOP!",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1489": {
+    "id": 1489,
+    "map_id": "2127",
+    "logo": "/site/assets/files/1489/unbenannt_6.png",
+    "title": "Just Couture",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1490": {
+    "id": 1490,
+    "map_id": "4061",
+    "logo": "/site/assets/files/1490/kanz.jpg",
+    "title": "Kanz",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1491": {
+    "id": 1491,
+    "map_id": "2114",
+    "logo": "/site/assets/files/1491/kanzler.png",
+    "title": "Kanzler",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "news"
+    ]
+  },
+  "1493": {
+    "id": 1493,
+    "map_id": "2089.1",
+    "logo": "/site/assets/files/1493/unbenannt_7.png",
+    "title": "Kapronovaya Strekoza",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1497": {
+    "id": 1497,
+    "map_id": "1134",
+    "logo": "/site/assets/files/1497/unbenannt.png",
+    "title": "KNOW-HOW",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1498": {
+    "id": 1498,
+    "map_id": "1004",
+    "logo": "/site/assets/files/1498/unbenannt_1_2.png",
+    "title": "Koton",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1499": {
+    "id": 1499,
+    "map_id": "2121",
+    "logo": "/site/assets/files/1499/unbenannt_22.jpg",
+    "title": "Krasnii Kub",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "2"
+    ]
+  },
+  "1500": {
+    "id": 1500,
+    "map_id": "2130",
+    "logo": "/site/assets/files/1500/kristia.png",
+    "title": "Kristia Modehaus",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1504": {
+    "id": 1504,
+    "map_id": "1056",
+    "logo": "/site/assets/files/1504/unbenannt_21.jpg",
+    "title": "L'Etoile",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "1"
+    ]
+  },
+  "1505": {
+    "id": 1505,
+    "map_id": "2054.2",
+    "logo": "/site/assets/files/1505/lf_logo_1.jpg",
+    "title": "La fleur",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "2"
+    ]
+  },
+  "1507": {
+    "id": 1507,
+    "map_id": "1133",
+    "logo": "/site/assets/files/1507/lacoste.jpg",
+    "title": "Lacoste",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1508": {
+    "id": 1508,
+    "map_id": "1079",
+    "logo": "/site/assets/files/1508/unbenannt.png",
+    "title": "lady&gentleman CITY",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "event"
+    ]
+  },
+  "1513": {
+    "id": 1513,
+    "map_id": "4069.2",
+    "logo": "/site/assets/files/1513/lego.png",
+    "title": "Lego",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1515": {
+    "id": 1515,
+    "map_id": "1108",
+    "logo": "/site/assets/files/1515/levis.jpg",
+    "title": "Levi's",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1517": {
+    "id": 1517,
+    "map_id": "2108.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Lora",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1518": {
+    "id": 1518,
+    "map_id": "1031.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Luara",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1519": {
+    "id": 1519,
+    "map_id": "1020",
+    "logo": "/site/assets/files/1519/mac.png",
+    "title": "Mac",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "collection",
+      "news"
+    ]
+  },
+  "1522": {
+    "id": 1522,
+    "map_id": "1062",
+    "logo": "/site/assets/files/1522/mango.png",
+    "title": "Mango",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1",
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1524": {
+    "id": 1524,
+    "map_id": "2111",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Manzari Gold",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1528": {
+    "id": 1528,
+    "map_id": "3040",
+    "logo": "/site/assets/files/1528/mbt.jpg",
+    "title": "Mbt",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1530": {
+    "id": 1530,
+    "map_id": "3001,4001.1",
+    "logo": "/site/assets/files/1530/media-markt.png",
+    "title": "Media Markt",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "3",
+      "4"
+    ]
+  },
+  "1533": {
+    "id": 1533,
+    "map_id": "1106.1",
+    "logo": "/site/assets/files/1533/mesler.png",
+    "title": "Mesler Fashion",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1534": {
+    "id": 1534,
+    "map_id": "1066",
+    "logo": "/site/assets/files/1534/meucci.png",
+    "title": "MEUCCI",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1536": {
+    "id": 1536,
+    "map_id": "3070",
+    "logo": "/site/assets/files/1536/modis.jpg",
+    "title": "Modis",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1537": {
+    "id": 1537,
+    "map_id": "1122",
+    "logo": "/site/assets/files/1537/logo_250_2.jpg",
+    "title": "Московский ювелирный завод",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1539": {
+    "id": 1539,
+    "map_id": "4058",
+    "logo": "/site/assets/files/1539/mc_logo_2015.jpg",
+    "title": "Mothercare",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1541": {
+    "id": 1541,
+    "map_id": "2129",
+    "logo": "/site/assets/files/1541/250.png",
+    "title": "MUST-HAVE",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1542": {
+    "id": 1542,
+    "map_id": "4001.2",
+    "logo": "/site/assets/files/1542/mvideo.jpg",
+    "title": "Mvideo",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "4"
+    ]
+  },
+  "1544": {
+    "id": 1544,
+    "map_id": "1125.1",
+    "logo": "/site/assets/files/1544/mywalit_1.jpg",
+    "title": "Mywalit",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "event"
+    ]
+  },
+  "1545": {
+    "id": 1545,
+    "map_id": "1022",
+    "logo": "/site/assets/files/1545/300_230_napapijri_logo.jpg",
+    "title": "Napapijri",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1547": {
+    "id": 1547,
+    "map_id": "2115",
+    "logo": "/site/assets/files/1547/nello-santi_1.jpg",
+    "title": "Nello Santi",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1549": {
+    "id": 1549,
+    "map_id": "4062",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Next Kids",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1550": {
+    "id": 1550,
+    "map_id": "1075",
+    "logo": "/site/assets/files/1550/nice-connection.jpg",
+    "title": "Nice Connection",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1551": {
+    "id": 1551,
+    "map_id": "3058",
+    "logo": "/site/assets/files/1551/logo_orang_001.jpg",
+    "title": "Nike",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1554": {
+    "id": 1554,
+    "map_id": "1002",
+    "logo": "/site/assets/files/1554/obi.jpg",
+    "title": "Obi",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "hypermarket",
+    "category_title": "Гипермаркет",
+    "floor": [
+      "1"
+    ]
+  },
+  "1556": {
+    "id": 1556,
+    "map_id": "3011",
+    "logo": "/site/assets/files/1556/ogogo_001.jpg",
+    "title": "ОГОГО Обстановочка!",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "3"
+    ]
+  },
+  "1558": {
+    "id": 1558,
+    "map_id": "2018.1",
+    "logo": "/site/assets/files/1558/organic.png",
+    "title": "Organic Shop",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "2"
+    ]
+  },
+  "1562": {
+    "id": 1562,
+    "map_id": "2073",
+    "logo": "/site/assets/files/1562/250_1.jpg",
+    "title": "Ostin",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1563": {
+    "id": 1563,
+    "map_id": "4064",
+    "logo": "/site/assets/files/1563/__________-________1.jpg",
+    "title": "Ostin Kids",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1564": {
+    "id": 1564,
+    "map_id": "2132",
+    "logo": "/site/assets/files/1564/logo1_1.png",
+    "title": "Otto Berg",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1566": {
+    "id": 1566,
+    "map_id": "3027",
+    "logo": "/site/assets/images/empty.png",
+    "title": "P&L Collection",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1568": {
+    "id": 1568,
+    "map_id": "2072",
+    "logo": "/site/assets/files/1568/palatin-katalog.jpg",
+    "title": "Palatin",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1573": {
+    "id": 1573,
+    "map_id": "2088.3",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Pi & Ar",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "2"
+    ]
+  },
+  "1574": {
+    "id": 1574,
+    "map_id": "3056.2",
+    "logo": "/site/assets/files/1574/pilotage.png",
+    "title": "Pilotage",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "3"
+    ]
+  },
+  "1575": {
+    "id": 1575,
+    "map_id": "1149",
+    "logo": "/site/assets/files/1575/thumb_1555_default_news_thumb.jpg",
+    "title": "Piquadro",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1578": {
+    "id": 1578,
+    "map_id": "3018",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Pravilnie Jeans",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1579": {
+    "id": 1579,
+    "map_id": "4069.2a",
+    "logo": "/site/assets/files/1579/unbenannt_10.png",
+    "title": "Prenatal",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "kids",
+    "category_title": "Детские товары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1580": {
+    "id": 1580,
+    "map_id": "2137.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Prima Linea",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "2"
+    ]
+  },
+  "1582": {
+    "id": 1582,
+    "map_id": "3057",
+    "logo": "/site/assets/files/1582/puma.png",
+    "title": "Puma",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1584": {
+    "id": 1584,
+    "map_id": "1021",
+    "logo": "/site/assets/files/1584/restore-logo2_1.jpg",
+    "title": "re:Store",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "1"
+    ]
+  },
+  "1586": {
+    "id": 1586,
+    "map_id": "3044",
+    "logo": "/site/assets/files/1586/reebok.jpg",
+    "title": "Reebok",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1587": {
+    "id": 1587,
+    "map_id": "1060",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Rendez-Vous",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "4"
+    ]
+  },
+  "1588": {
+    "id": 1588,
+    "map_id": "2070",
+    "logo": "/site/assets/files/1588/respect.png",
+    "title": "Respect",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1589": {
+    "id": 1589,
+    "map_id": "2118",
+    "logo": "/site/assets/files/1589/logo.png",
+    "title": "RIGGI",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1590": {
+    "id": 1590,
+    "map_id": "1044",
+    "logo": "/site/assets/files/1590/rigla.png",
+    "title": "Rigla",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "1"
+    ]
+  },
+  "1592": {
+    "id": 1592,
+    "map_id": "2088.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Royce",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "2"
+    ]
+  },
+  "1596": {
+    "id": 1596,
+    "map_id": "1131",
+    "logo": "/site/assets/files/1596/salamander.jpg",
+    "title": "Salamander",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "1"
+    ]
+  },
+  "1599": {
+    "id": 1599,
+    "map_id": "1059",
+    "logo": "/site/assets/files/1599/sfm.jpg",
+    "title": "Samsung",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "electronic",
+    "category_title": "Электроника и бытовая техника",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "news"
+    ]
+  },
+  "1601": {
+    "id": 1601,
+    "map_id": "1031.2",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Sea of Spa",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "1"
+    ]
+  },
+  "1602": {
+    "id": 1602,
+    "map_id": "1109",
+    "logo": "/site/assets/images/empty.png",
+    "title": "SGH",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "1"
+    ]
+  },
+  "1605": {
+    "id": 1605,
+    "map_id": "1K12",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Silver jewelry ",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1606": {
+    "id": 1606,
+    "map_id": "2039.2",
+    "logo": "/site/assets/files/1606/simpatico.jpg",
+    "title": "Simpatico",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1607": {
+    "id": 1607,
+    "map_id": "4068.1",
+    "logo": "/site/assets/files/1607/skoromama_nadpisq1___1_.jpg",
+    "title": "Skoromama",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "4"
+    ]
+  },
+  "1608": {
+    "id": 1608,
+    "map_id": "2085",
+    "logo": "/site/assets/files/1608/300_2.jpg",
+    "title": "Sleepeesleep",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "3"
+    ]
+  },
+  "1609": {
+    "id": 1609,
+    "map_id": "3061",
+    "logo": "/site/assets/files/1609/sneakerhead_1.png",
+    "title": "Sneakerhead",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1610": {
+    "id": 1610,
+    "map_id": "2013",
+    "logo": "/site/assets/files/1610/logo_1_1.png",
+    "title": "Solostyle",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ]
+  },
+  "1616": {
+    "id": 1616,
+    "map_id": "3042",
+    "logo": "/site/assets/files/1616/street-beat_1.png",
+    "title": "Street Beat",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1617": {
+    "id": 1617,
+    "map_id": "1016",
+    "logo": "/site/assets/files/1617/strellson_2.png",
+    "title": "Strellson",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1619": {
+    "id": 1619,
+    "map_id": "3738",
+    "logo": "/site/assets/files/1619/tago.jpg",
+    "title": "Tago",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1620": {
+    "id": 1620,
+    "map_id": "3059.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "TCN",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1625": {
+    "id": 1625,
+    "map_id": "1098",
+    "logo": "/site/assets/files/1625/the-body-shop.jpg",
+    "title": "The Body Shop",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "parfum",
+    "category_title": "Косметика и парфюмерия",
+    "floor": [
+      "1"
+    ]
+  },
+  "1626": {
+    "id": 1626,
+    "map_id": "1117",
+    "logo": "/site/assets/files/1626/th.jpg",
+    "title": "Tommy Hilfiger",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1628": {
+    "id": 1628,
+    "map_id": "2077",
+    "logo": "/site/assets/files/1628/logo_toris_001.jpg",
+    "title": "Toris",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "2"
+    ]
+  },
+  "1631": {
+    "id": 1631,
+    "map_id": "1024",
+    "logo": "/site/assets/files/1631/trussardi_jeans.jpg",
+    "title": "Trussardi Jeans",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1637": {
+    "id": 1637,
+    "map_id": "1107",
+    "logo": "/site/assets/files/1637/uspa.jpg",
+    "title": "US Polo",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ]
+  },
+  "1639": {
+    "id": 1639,
+    "map_id": "2053,1129",
+    "logo": "/site/assets/files/1639/valtera_300.png",
+    "title": "Valtera Silver",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1",
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1640": {
+    "id": 1640,
+    "map_id": "2116",
+    "logo": "/site/assets/files/1640/unknown-1.png",
+    "title": "VAN CLIFF ",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "mens",
+    "category_title": "Мужская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1642": {
+    "id": 1642,
+    "map_id": "3060a",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Vash Razmer",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1643": {
+    "id": 1643,
+    "map_id": "1113",
+    "logo": "/site/assets/files/1643/6801b5f3-ddcf-48f8-9567-9416d9ae4654.png",
+    "title": "Velars",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "1"
+    ]
+  },
+  "1644": {
+    "id": 1644,
+    "map_id": "2085",
+    "logo": "/site/assets/files/1644/300.jpg",
+    "title": "VELVET",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "3"
+    ]
+  },
+  "1645": {
+    "id": 1645,
+    "map_id": "3064",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Versale",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "3"
+    ]
+  },
+  "1646": {
+    "id": 1646,
+    "map_id": "2092",
+    "logo": "/site/assets/files/1646/viaborsa-logo_2.jpg",
+    "title": "Via Borsa",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1648": {
+    "id": 1648,
+    "map_id": "1041.1",
+    "logo": "/site/assets/files/1648/list-gly1mbomwrkm6rpi.png",
+    "title": "Vitawin",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "1"
+    ]
+  },
+  "1651": {
+    "id": 1651,
+    "map_id": "1138",
+    "logo": "/site/assets/files/1651/300_3d_2014_sl.jpg",
+    "title": "WELLENSTEYN",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1654": {
+    "id": 1654,
+    "map_id": "1090",
+    "logo": "/site/assets/files/1654/williams-et-oliver.jpg",
+    "title": "Williams et Oliver",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "1"
+    ]
+  },
+  "1655": {
+    "id": 1655,
+    "map_id": "2113",
+    "logo": "/site/assets/files/1655/50cfc6faa0f302305000000d_50cfd1cfd8a1b.jpg",
+    "title": "Wittchen",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "accessories",
+    "category_title": "Аксессуары",
+    "floor": [
+      "2"
+    ]
+  },
+  "1656": {
+    "id": 1656,
+    "map_id": "2120",
+    "logo": "/site/assets/files/1656/woolstreet.png",
+    "title": "Woolstreet",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1657": {
+    "id": 1657,
+    "map_id": "1101.4",
+    "logo": "/site/assets/files/1657/al_ians.jpg",
+    "title": "Yakutian Diamonds",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1658": {
+    "id": 1658,
+    "map_id": "1043",
+    "logo": "/site/assets/files/1658/yashma-zoloto_v6040.png",
+    "title": "Yashma Zoloto",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1659": {
+    "id": 1659,
+    "map_id": "2012",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Yushkoff",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "2"
+    ]
+  },
+  "1662": {
+    "id": 1662,
+    "map_id": "2040",
+    "logo": "/site/assets/files/1662/zenden_logo.jpg",
+    "title": "Zenden",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1664": {
+    "id": 1664,
+    "map_id": "1137",
+    "logo": "/site/assets/files/1664/bj.jpg",
+    "title": "Бронницкий ювелир",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1665": {
+    "id": 1665,
+    "map_id": "2022",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Бюстье",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "2"
+    ]
+  },
+  "1681": {
+    "id": 1681,
+    "map_id": "3004",
+    "logo": "/site/assets/files/1681/1.png",
+    "title": "Спортмастер",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "sport",
+    "category_title": "Спортивные товары",
+    "floor": [
+      "3"
+    ]
+  },
+  "1683": {
+    "id": 1683,
+    "map_id": "1125.3",
+    "logo": "/site/assets/files/1683/logo.jpg",
+    "title": "Ника",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1686": {
+    "id": 1686,
+    "map_id": "3065",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Салон кожи и меха «Антарктида»",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1689": {
+    "id": 1689,
+    "map_id": "1136",
+    "logo": "/site/assets/files/1689/image_manager_rex_mediapool_maximized_timeavenue.jpg",
+    "title": "Тайм Авеню",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1700": {
+    "id": 1700,
+    "map_id": "3851",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Ledile",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "3"
+    ]
+  },
+  "1701": {
+    "id": 1701,
+    "map_id": "2K13",
+    "logo": "/site/assets/files/1701/chayburg_1.jpg",
+    "title": "Chayburg",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "food",
+    "category_title": "Продукты питания и напитки",
+    "floor": [
+      "2"
+    ]
+  },
+  "1703": {
+    "id": 1703,
+    "map_id": "1085",
+    "logo": "/site/assets/files/1703/image_manager_rex_mediapool_maximized_maxlevel_1.png",
+    "title": "Maxlevel",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "1"
+    ]
+  },
+  "1706": {
+    "id": 1706,
+    "map_id": "2066",
+    "logo": "/site/assets/files/1706/logo.png",
+    "title": "Monte Carlo",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1709": {
+    "id": 1709,
+    "map_id": "2135",
+    "logo": "/site/assets/files/1709/unbenannt.png",
+    "title": "Lexmer",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "2"
+    ]
+  },
+  "1710": {
+    "id": 1710,
+    "map_id": "3825",
+    "logo": "/site/assets/images/empty.png",
+    "title": "La Brie",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "3"
+    ]
+  },
+  "1713": {
+    "id": 1713,
+    "map_id": "3887",
+    "logo": "/site/assets/files/1713/image_manager_rex_mediapool_maximized_agiotage-market-_1.png",
+    "title": "Agiotage Market",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ],
+    "action_types": [
+      "collection",
+      "sale"
+    ]
+  },
+  "1717": {
+    "id": 1717,
+    "map_id": "4082c",
+    "logo": "/site/assets/files/1717/image_manager_rex_mediapool_maximized_obuvashka_logo.jpg",
+    "title": "Обувашка",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "shoes",
+    "category_title": "Обувь",
+    "floor": [
+      "4"
+    ]
+  },
+  "1718": {
+    "id": 1718,
+    "map_id": "1K99",
+    "logo": "/site/assets/files/1718/image_manager_rex_mediapool_maximized_megachas.jpg",
+    "title": "Мегачас",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "jewelry",
+    "category_title": "Ювелирные изделия и часы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1719": {
+    "id": 1719,
+    "map_id": "4067а",
+    "logo": "/site/assets/files/1719/kl_logo_vec-2.png",
+    "title": "Книжный лабиринт",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "4"
+    ]
+  },
+  "1720": {
+    "id": 1720,
+    "map_id": "T-02",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Kixbox",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ]
+  },
+  "1721": {
+    "id": 1721,
+    "map_id": "2122",
+    "logo": "/site/assets/files/1721/on_on_300.jpg",
+    "title": "On&On",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "womens",
+    "category_title": "Женская одежда",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "event"
+    ]
+  },
+  "1724": {
+    "id": 1724,
+    "map_id": "2044",
+    "logo": "/site/assets/files/1724/logo.jpg",
+    "title": "НеоФарм",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "health",
+    "category_title": "Красота и здоровье",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1751": {
+    "id": 1751,
+    "map_id": "2022",
+    "logo": "/site/assets/files/1751/image_manager_rex_mediapool_maximized_-2_500_500.png",
+    "title": "Бюстье",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "underwear",
+    "category_title": "Нижнее бельё",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "collection"
+    ]
+  },
+  "1783": {
+    "id": 1783,
+    "map_id": "T01",
+    "logo": "/site/assets/files/1783/250-1.jpg",
+    "title": "TIMEOUT",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "fashion",
+    "category_title": "Одежда",
+    "floor": [
+      "3"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1807": {
+    "id": 1807,
+    "map_id": "2085",
+    "logo": "/site/assets/files/1807/unbenannt.png",
+    "title": "MÖBEL STADT",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "household",
+    "category_title": "Мебель и товары для дома",
+    "floor": [
+      "2"
+    ]
+  },
+  "1808": {
+    "id": 1808,
+    "map_id": "4056",
+    "logo": "/site/assets/files/1808/unbenannt.png",
+    "title": "Весёлая затея",
+    "section": "shops",
+    "section_title": "Магазины",
+    "category": "gifts",
+    "category_title": "Подарки и сувениры",
+    "floor": [
+      "4"
+    ]
+  }
+}

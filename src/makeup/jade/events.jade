@@ -1,0 +1,58 @@
+extends layouts/layout
+
+block vars
+  - var title = 'События'
+  - var footerIsDisabled = true
+
+block content
+  #map
+  script(type='text/javascript').
+    window.onload = function () {
+      Map.init(true, 2);
+    };
+  section.l-content.theme--dark.content--map
+    .centered-content
+      include components/filter-2
+      .store.js-store
+        .store__header
+          .store__store-img(style='background-image: url(img/store-header.jpg)')
+          .store__store-img-blackout
+          .store__header-inn
+            .store__logo
+              img(src='img/logos/hm.jpg', alt='')
+            .store__breadcrumbs
+              i.store__share-ico
+                svg.icon.icon-share-2
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-share-2')
+              |                 магазины / H&M / Новая коллекция
+            .store__back-to-shop.store__back-to-shop--head
+              a(href='#') Вернуться к магазину
+              i.ico
+                svg.icon.icon-leftarrow23
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-leftarrow23')
+            .store__fotos-leng
+              i.store__fotos-ico
+                svg.icon.icon-picture
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-picture')
+              span.store__fotos-link.js-store__fotos-link Посмотреть 4 фото
+            .badge.badge--favor.badge--store.js-tooltip-top(data-tooltip='Добавить в избранное')
+              .badge__bottom
+              svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+        .store__content
+          .store__wide-info
+            h2 Новая коллекция
+            p
+              | Adidas Performance — это направление компании, собравшее в себе современные технологии, облегчающие тренировки спортсменам, и характеризующееся такими неотъемлемыми показателями, как современность экипировки для занятий спортом, инновации, революционные технологии, «умные продукты».
+            .store__show-new-collection-link
+              i.ico
+                svg.icon.icon-collection
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+              a(href='#') Показать всю новую колекцию
+          .store__back-to-shop.store__back-to-shop--content
+            i.ico
+              svg.icon.icon-leftarrow23
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-leftarrow23')
+            a(href='#') Вернуться к магазину
+      include components/gallery
+

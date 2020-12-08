@@ -1,0 +1,276 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Вакансии'
+
+block content
+  section.content_header Вакансии
+  section.l-content
+    .centered-content
+      .content_jobs
+        .content_breadcrumb
+          | Aviapark /&nbsp;
+          span Вакансии
+        .jobs_cat
+          .jobs_cat_text
+            | Для соискателей на любую вакансию
+            br
+            | распространяется следующий
+            br
+            | список требований:
+          ul.jobs_cat_list
+            li.jobs_cat_list1
+              svg.icon.icon-balloon
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-balloon')
+              | Позитивное
+              br
+              | мышление
+            li.jobs_cat_list2 Исполнительность
+              svg.icon.icon-scissors
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-scissors')
+            li.jobs_cat_list3 Ответственность
+              svg.icon.icon-mark
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-mark')
+            li.jobs_cat_list4 Инициативность
+              svg.icon.icon-jumper
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-jumper')
+            li.jobs_cat_list5
+              svg.icon.icon-alphabet
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-alphabet')
+              | Грамотный псьменный
+              br
+              | русский язык
+            li.jobs_cat_list6 Активность
+              svg.icon.icon-bubble
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-bubble')
+            li.jobs_cat_list7 Энергичность
+              svg.icon.icon-lightning
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-lightning')
+            li.jobs_cat_list8
+              svg.icon.icon-player
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-player')
+              | Нацеленость
+              br
+              | на результат
+            li.jobs_cat_list9
+              svg.icon.icon-student
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-student')
+              | Желание и умение
+              br
+              | постоянно обучатся
+            li.jobs_cat_list10 Пунктуальность
+              svg.icon.icon-time
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-time')
+        ul.jobs_list
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 1
+                h4 Middle PHP Developer of Client Dashboard
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 2
+                h4 Middle PHP Developer of SaaS-startup
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 3
+                h4 Sales Manager Inbound Lead Converter
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 4
+                h4 Junior PPC Specialist
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 5
+                h4 Middle PPC Specialist (Bulgarian and Russian Speaking)
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 6
+                h4 Middle PHP Developer of Client Dashboard
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+          li
+            .jobs_list_text
+              .jobs_list_text_inn
+                span 7
+                h4 Middle PPC Specialist (Bulgarian and Russian Speaking)
+                p.jobs_info_light Москва
+                p.jobs_info_bold Краткое описание вакансии
+                p
+                  | Взаимодействие агентства и клиентов автоматизировано и обеспечивается Личным Кабинетом клиента (ЛК). В ЛК клиент может видеть всю информацию о своем проекте, производить оплату услуг и многое другое. ЛК вместе с агентством растет и развивается, и требования к нему уже выходят за рамки возможностей отдела. Поэтому нам нужен Middle PHP Developer of Client Dashboard для усиления команды разработчиков ЛК.
+                p.jobs_info_bold Обязаности
+                p
+                  | Опыт работы с PHP5  от 2 лет.
+                  br
+                  |                   Опыт разработки на Сodeigniter, Kohana или любом другом
+                  br
+                  |                   Опыт проектирования БД (MySQL).
+                  br
+                  |                   Понимание и применение принципов ООП.
+                  br
+                  |                   Знание JavaScript +jQuery.
+                  br
+                  |                   Опыт работы с системой контроля версий Git.
+                  br
+                  |                   Понимание базовых механизмов защиты кода
+                  br
+                  |                   Опыт работы в *nix системах и базового системного администрирования (LAMP).
+                  br
+                  |                   Способность разбираться в чужом коде.
+                  br
+                  |                   Знание английского языка на уровне умения читать документацию с Google Translate.
+        button.jobs_button Заполнить анкету
+        .jobs_list_extend_height

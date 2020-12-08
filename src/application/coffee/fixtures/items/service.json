@@ -1,0 +1,254 @@
+{
+  "1374": {
+    "id": 1374,
+    "map_id": "4046.1",
+    "logo": "/site/assets/files/1374/unbenannt_5.jpg",
+    "title": "1001 Tour",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "travel",
+    "category_title": "Бюро путешествий",
+    "floor": [
+      "4"
+    ]
+  },
+  "1380": {
+    "id": 1380,
+    "map_id": "1049,2042",
+    "logo": "/site/assets/images/empty.png",
+    "title": "911 Dom Byta",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "ateliers",
+    "category_title": "Ателье и мастерские",
+    "floor": [
+      "1",
+      "2"
+    ]
+  },
+  "1423": {
+    "id": 1423,
+    "map_id": "1055",
+    "logo": "/site/assets/files/1423/citi_blue_cmyk.jpg",
+    "title": "Citibank",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "bank",
+    "category_title": "Банки и банкоматы",
+    "floor": [
+      "1"
+    ]
+  },
+  "1485": {
+    "id": 1485,
+    "map_id": "1040.3",
+    "logo": "/site/assets/files/1485/iq_2.png",
+    "title": "IQ студия маникюра",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "1"
+    ]
+  },
+  "1510": {
+    "id": 1510,
+    "map_id": "2045.1",
+    "logo": "/site/assets/files/1510/lavanderia-logo-300_1.png",
+    "title": "LAVANDERYA",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "laundry",
+    "category_title": "Прачечные и химчистки",
+    "floor": [
+      "2"
+    ]
+  },
+  "1514": {
+    "id": 1514,
+    "map_id": "1057",
+    "logo": "/site/assets/files/1514/300px-lensmaster.jpg",
+    "title": "Lensmaster",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "optics",
+    "category_title": "Салоны оптики",
+    "floor": [
+      "1"
+    ]
+  },
+  "1531": {
+    "id": 1531,
+    "map_id": "1127",
+    "logo": "/site/assets/files/1531/ayfon-4s-tsena-v-megafone-10007-large.png",
+    "title": "Megafon",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "provider",
+    "category_title": "Салоны связи",
+    "floor": [
+      "1"
+    ]
+  },
+  "1538": {
+    "id": 1538,
+    "map_id": "1040",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Moskovskoe Vremya",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "ateliers",
+    "category_title": "Ателье и мастерские",
+    "floor": [
+      "1"
+    ]
+  },
+  "1553": {
+    "id": 1553,
+    "map_id": "2119",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Nogotok",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "2"
+    ]
+  },
+  "1557": {
+    "id": 1557,
+    "map_id": "4065",
+    "logo": "/site/assets/files/1557/oops.jpg",
+    "title": "OOPS ПУПС",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "sale",
+      "news"
+    ]
+  },
+  "1572": {
+    "id": 1572,
+    "map_id": "4046.2",
+    "logo": "/site/assets/files/1572/pegas.jpg",
+    "title": "Pegas Touristik",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "travel",
+    "category_title": "Бюро путешествий",
+    "floor": [
+      "4"
+    ]
+  },
+  "1624": {
+    "id": 1624,
+    "map_id": "1040.1",
+    "logo": "/site/assets/files/1624/logo_250.jpg",
+    "title": "Tez Tour",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "travel",
+    "category_title": "Бюро путешествий",
+    "floor": [
+      "1"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1633": {
+    "id": 1633,
+    "map_id": "2041.1",
+    "logo": "/site/assets/files/1633/turoperator_tui_1.jpg",
+    "title": "Tui Travel",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "travel",
+    "category_title": "Бюро путешествий",
+    "floor": [
+      "2"
+    ]
+  },
+  "1635": {
+    "id": 1635,
+    "map_id": "2043.2",
+    "logo": "/site/assets/files/1635/unistream.png",
+    "title": "ЮНИСТРИМ",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "money",
+    "category_title": "Денежные переводы",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "news"
+    ]
+  },
+  "1687": {
+    "id": 1687,
+    "map_id": "3041",
+    "logo": "/site/assets/files/1687/1.jpg",
+    "title": "Сеть салонов красоты «Острова»",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "3"
+    ],
+    "action_types": [
+      "sale",
+      "event"
+    ]
+  },
+  "1714": {
+    "id": 1714,
+    "map_id": "1053",
+    "logo": "/site/assets/files/1714/300.jpg",
+    "title": "МТС",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "provider",
+    "category_title": "Салоны связи",
+    "floor": [
+      "1"
+    ]
+  },
+  "1715": {
+    "id": 1715,
+    "map_id": "3079",
+    "logo": "/site/assets/files/1715/image_manager_rex_mediapool_maximized_beautypointlogo.png",
+    "title": "Точка Красоты",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "3"
+    ]
+  },
+  "1722": {
+    "id": 1722,
+    "map_id": "2036",
+    "logo": "/site/assets/files/1722/image_manager_rex_mediapool_maximized_imgo-4.jpeg",
+    "title": "Лакшери маникюр bar",
+    "section": "service",
+    "section_title": "Услуги",
+    "category": "beauty",
+    "category_title": "Салоны красоты",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  }
+}

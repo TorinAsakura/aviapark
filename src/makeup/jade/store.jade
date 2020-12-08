@@ -1,0 +1,141 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Магазин'
+  - var footerIsDisabled = true
+
+block content
+  #map
+  script(type='text/javascript').
+    window.onload = function () {
+      Map.init(true, 2);
+    };
+  section.l-content.theme--dark.content--map.map
+    .user-mobile-box
+      a.umb-link(href="#")  
+        span 
+          svg.icon.icon-user
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-user') 
+      a.umb-close(href="#")  
+        svg.icon.icon-close
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close') 
+      .umb-box
+        a.go-to-fav(href="#")
+          svg.icon.icon-icon-star
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-icon-star') 
+          span Фавориты
+        a.go-to-parking(href="#")
+          svg.icon.icon-route-2
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-route-2') 
+          span К парковке
+        a.go-to-profile(href="#")
+          svg.icon.icon-settings
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-settings') 
+          span Профиль
+            icon-icon-arround
+        a.go-to-around(href="#")
+          svg.icon.icon-icon-arround
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-icon-arround') 
+          span Что вокруг?
+        span.separator  
+        span.separator.sep-right
+    .centered-content
+      include components/filter-2
+      .store.js-store
+        .store__header
+          .store__store-img(style='background-image: url(img/store-header.jpg)')
+          .store__store-img-blackout
+          .store__header-inn
+            .store__logo
+              img(src='img/logos/hm.jpg', alt='')
+            .store__breadcrumbs
+              i.store__share-ico
+                svg.icon.icon-share-2
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-share-2')
+              |                 магазины / H&M
+            .store__controls
+              span.store__control-btn
+                svg.ico.icon.icon-route.store__control-ico.store__route-ico
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-route')
+              span.store__control-btn
+                svg.ico.icon.icon-close-2.store__control-ico.store__close-ico.js-store__close
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close-2')
+            .store__fotos-leng
+              i.store__fotos-ico
+                svg.icon.icon-picture
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-picture')
+              span.store__fotos-link.js-store__fotos-link Посмотреть 4 фото
+            .badge.badge--favor.badge--store.js-tooltip-top(data-tooltip='Добавить в избранное')
+              .badge__bottom
+              svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+        .store__content
+          .store__info
+            .store__text-info
+              h2 H&M
+              p Магазин одежды, магазин детской одежды
+            .store__rside-info.store__rside-info--store-info
+              .store__phone
+                i.store__phone-ico
+                  svg.icon.icon-handset
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-handset')
+                |                     +495-232-11-57
+              .store__worktime
+                i.store__watch-ico
+                  svg.icon.icon-watch
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-watch')
+                |                     Сегодня работает до 23:00
+          .store__info
+            .store__tags
+              h3 Виды одежды (tags)
+              |                 женская / детская / мужская / h&m / мода
+            +b.social.--store
+              +e('ul').list
+                +e('li').item
+                  +e('a').link(href="#")
+                    +e('svg').ico.icon.icon-vk
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-vk')
+                +e('li').item
+                  +e('a').link(href="#")
+                    +e('svg').ico.icon.icon-facebook
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-facebook')
+                +e('li').item
+                  +e('a').link(href="#")
+                    +e('svg').ico.icon.icon-odnoklassniki
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-odnoklassniki')
+          .store__more-info
+            .store__more-info-head
+              ul
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-watch-ico
+                    svg.icon.icon-time
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-time')
+                  | Пн-Чт + Вс 10:00-22:00 / Пт-Сб 10:00-23:00
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-floor-ico
+                    svg.icon.icon-layers
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-layers')
+                  | Этаж 1
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-site-ico
+                    svg.icon.icon-screen
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-screen')
+                  | www.h&m.com
+            p
+              | С 2004 года компания ввела в практику выпуск коллекций в сотрудничестве с известными дизайнерами. Так, в ноябре 2004 года в некоторых магазинах H&M была представлена коллекция Карла Лагерфельда. Пресса сообщала об огромном ажиотаже на данные вещи, в крупных городах коллекция была распродана в течение часа.
+            p
+              | Далее, в ноябре 2005 года была выпущена коллекция от Стеллы Маккартни, в ноябре 2006 — коллекция от авангардного нидерландского модного дома Viktor & Rolf (англ. Viktor & Rolf). В марте 2006 года компания начала сотрудничество с Мадонной.
+            p
+              | В июне 2007 года разработчик игр Maxis совместно с H&M выпустила дополнение к игре The Sims 2 — H&M Fashion Stuff, в которых были включены 60 моделей одежды и 3 магазина H&M.
+            p
+              | Далее, в ноябре 2007 года была представлена коллекция итальянского дизайнера Роберто Кавалли. Также в 2007 году в Шанхае была представлена коллекция купальников от Кайли Миноуг. Осенью 2008 года была выпущена коллекция в сотрудничестве с японским брендом Comme des Garçons (англ. Comme des Garçons).
+          .store__show-more-info
+            a.btn.btn--show-more-info.js-btn-show-more-info(href='#') Подробнее
+          .store__items-wrap
+            h3 Что новенького
+            .store__items.js-store__items
+              include components/stock-item-1
+              include components/stock-item-2
+              include components/stock-item-3
+              include components/stock-item-4
+      include components/gallery

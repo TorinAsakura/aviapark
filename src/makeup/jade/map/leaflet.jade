@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title lightmachine
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+    link(rel='stylesheet', href='css/leaflet.css')
+    link(rel='stylesheet', href='css/leaflet.label.css')
+    //if lte IE 8
+      link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css')
+    script(src='js/leaflet.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    script(src='js/leaflet.label.js')
+    script(src='js/map.js')
+    style.
+      .popupl {
+      width: 50px;
+      }
+    style.
+      html, body, #map {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      }
+  body(onload='Map.init(true, 2)')
+    #map

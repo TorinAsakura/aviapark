@@ -1,0 +1,178 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Дилеры'
+
+block content
+  section.dealers_header
+    p
+      strong key stats and figures
+    h2 Basic info
+    .info_item5.item1
+      i
+        svg.icon.icon-bag
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-bag')
+      p
+        strong 414
+        |           numbers of
+        br
+        | retailers
+    .info_item5.item2
+      i
+        svg.icon.icon-layers
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-layers')
+      p
+        strong
+          | 136,373
+          span
+            | m
+            sup 2
+        |           cross lettable
+        br
+        | area
+    .info_item5.item3
+      i
+        svg.icon.icon-typewriter
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-typewriter')
+      p
+        strong $913,600,000
+        |           total annual
+        br
+        | retail sales
+    .info_item5.item4
+      i
+        svg.icon.icon-peoples
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-peoples')
+      p
+        strong 16,900,000
+        |           annual customer
+        br
+        | visits
+    .info_item5.item5
+      i
+        svg.icon.icon-car-2
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-car-2')
+      p
+        strong 5,897
+        |           cars parking
+        br
+        | spaces
+  section.l-content
+    .centered-content
+      .content_dealers
+        h2 leasing agents
+        h3 jll
+        p.content_line
+          strong Tel: +8 495 737 80 00
+        .dealer_item5.inline_block_item
+          p
+            strong Жукова Яна
+            |               Tel: +8 903 294 58 08
+            a(href='mailto:Yana.Zhukova@eu.jll.com') Yana.Zhukova@eu.jll.com
+        .dealer_item5.inline_block_item
+          p
+            strong Королев Антон
+            |               Tel: +8 968 789 89 11
+            a(href='mailto:Anton.Korolev@eu.jll.com') Anton.Korolev@eu.jll.com
+        .dealer_item5.inline_block_item
+          p
+            strong Ханинаев Бениамин
+            |               Tel. +8 966 037 59 27
+            a(href='mailto:Beniamin.Khaninaev@eu.jll.com') Beniamin.Khaninaev@eu.jll.com
+        .dealer_item5.inline_block_item
+          p
+            strong Илья Жубриков
+            |               Tel: +8 909 938 32 60
+            a(href='mailto:Ilya.Zhubrikov@eu.jll.com') Ilya.Zhubrikov@eu.jll.com
+        .dealer_item5.inline_block_item
+          p
+            strong Ксения Еремина
+            |               Tel: +8 903 213 03 86
+            a(href='mailto:Ksenia.Eremina@eu.jll.com') Ksenia.Eremina@eu.jll.com
+        .clear_box
+        h3 Knight Frank
+        p
+          strong Tel: +8 495 981 00 00
+        .dealer_item3.inline_block_item
+          p
+            strong Natalia Morozova
+            |               Tel: +7 967 013 02 83
+            a(href='mailto:Natalia.Morozova@ru.knightfrank.com') Natalia.Morozova@ru.knightfrank.com
+        .dealer_item3.inline_block_item
+          p
+            strong Yana Egashina
+            |               Tel: +7 926 404 13 81
+            a(href='mailto:Yana.Egashina@ru.knightfrank.com') Yana.Egashina@ru.knightfrank.com
+        .dealer_item3.inline_block_item
+          p
+            strong Ksenia Gracheva
+            |               Tel: +7 963 694 80 81
+            a(href='mailto:Ksenia.Gracheva@ru.knightfrank.com') Ksenia.Gracheva@ru.knightfrank.com
+        .clear_box
+        h2 downloads
+        .download_item3.download_item.item1.inline_block_item
+          i
+            svg.icon.icon-brochure
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-brochure')
+          p
+            strong Brochure
+            a(href='') download brochure  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+        .download_item3.download_item.item2.inline_block_item
+          i
+            svg.icon.icon-plans
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-plans')
+          p
+            strong Floor Plans
+            a(href='') floor plan 1  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') floor plan 2  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') floor plan 3  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') floor plan 4  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+        .download_item3.download_item.item3.inline_block_item
+          i
+            svg.icon.icon-plane
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-plane')
+          p
+            strong Location map
+            a(href='') download map  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+        .clear_box
+        .download_item1.download_item.item4.inline_block_item
+          i
+            svg.icon.icon-boom
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-boom')
+          p
+            strong Jones Lang LaSalleMoscow Retail Market Reports
+          p.download_list
+            a(href='') download q1 / 2013  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') download q2 / 2013  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') download q3 / 2013  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a(href='') download q4 / 2013  (20mb)
+              b
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')

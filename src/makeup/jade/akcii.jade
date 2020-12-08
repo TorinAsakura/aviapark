@@ -1,0 +1,25 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Акции'
+
+block content
+  section.l-content.theme--dark
+    .centered-content
+      include components/filter
+      .shares__items.js-store__items
+        include components/stock-item-1
+        include components/stock-item-2
+        include components/stock-item-3
+        include components/stock-item-4
+        include components/stock-item-2
+        include components/stock-item-4
+        include components/stock-item-1
+        include components/stock-item-3
+        include components/stock-item-4
+        include components/stock-item-2
+        include components/stock-item-1
+        include components/stock-item-2
+        include components/stock-item-1
+        include components/stock-item-4
+        include components/stock-item-3
