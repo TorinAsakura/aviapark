@@ -1,0 +1,60 @@
+{
+  "1435": {
+    "id": 1435,
+    "map_id": "4051",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Detochka",
+    "section": "kids",
+    "section_title": "Дети",
+    "category": "kidsroom",
+    "category_title": "Детские комнаты",
+    "floor": [
+      "4"
+    ]
+  },
+  "1445": {
+    "id": 1445,
+    "map_id": "4060",
+    "logo": "/site/assets/files/1445/elc.jpg",
+    "title": "Elc",
+    "section": "kids",
+    "section_title": "Дети",
+    "category": "kidsshop",
+    "category_title": "Магазины детских товаров",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "collection"
+    ]
+  },
+  "1496": {
+    "id": 1496,
+    "map_id": "4002",
+    "logo": "/site/assets/images/empty.png",
+    "title": "KidZania",
+    "section": "kids",
+    "section_title": "Дети",
+    "category": "kidzania",
+    "category_title": "Образовательно-развлекательный парк Кидзания",
+    "floor": [
+      "4"
+    ]
+  },
+  "1712": {
+    "id": 1712,
+    "map_id": "4110",
+    "logo": "/site/assets/files/1712/logotip_300.jpg",
+    "title": "Досуговый центр «РОМА»",
+    "section": "kids",
+    "section_title": "Дети",
+    "category": "kidsevents",
+    "category_title": "Мероприятия для детей",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "news"
+    ]
+  }
+}

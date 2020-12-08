@@ -1,0 +1,80 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Избранное'
+
+block content
+  section.l-content.theme--dark
+    .centered-content
+      include components/filter-4
+      .shares__items.js-store__items
+        .stock-item.kino-session
+          .kino-session__info
+            img.kino-session__logo(src='img/logos/kapo.png', alt='')
+            div
+              svg.ico.icon.icon-film
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-film')
+              br
+              |                 Загадочная история Бенджамина Баттона
+          .kino-session__footer
+            .kino-session__nearest
+              i.ico
+                svg.ico.icon.icon-time
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-time')
+              |                 Ближайший сеанс: в 17:00
+            .kino-session__booking
+              a.btn(href='#') Бронирование
+        include components/stock-item-1
+        .stock-item.stock-item--theme-yellow
+          .badge.badge--favor.badge--favor-stock.is-active.js-tooltip-top(data-tooltip='Удалить из избранного')
+            .badge__bottom
+            svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+          a.stock-item__img-link(href='#')
+            img.stock-item__img(data-no-retina='', src='img/logos/200_05.jpg', alt='')
+          .stock-item__info
+            .stock-item__desc
+              | Harman / Kardon по нереально большой скидке
+              | 50%!!! Это небывалая шара для ценителей хорошего звука!
+            .stock-item__details
+              i.stock-item__burger-ico
+                svg.ico.icon.icon-burger
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-burger')
+              a.stock-item__detail-text-link(href='#') Перейти в ресторан
+          .stock-item__colors.stock-colors
+            .stock-item__color.stock-colors__dark
+        .stock-item.stock-item--theme-yellow
+          .badge.badge--favor.badge--favor-stock.is-active.js-tooltip-top(data-tooltip='Удалить из избранного')
+            .badge__bottom
+            svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+          a.stock-item__img-link(href='#')
+            img.stock-item__img(data-no-retina='', src='img/logos/200_03.jpg', alt='')
+            .stock-item__hidden-info
+              ul
+                li
+                  i.ico.ico-purple.js-tooltip-top(data-tooltip='Коллекции')
+                    svg.icon.icon-badge
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+                li
+                  i.ico.ico-pink.js-tooltip-top(data-tooltip='Акции')
+                    svg.icon.icon-collection
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+                li
+                  i.ico.ico-yellow.js-tooltip-top(data-tooltip='События')
+                    svg.icon.icon-calendar
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+          .stock-item__info
+            .stock-item__desc Это небывалая шара для ценителей хорошего звука!
+            .stock-item__details
+              i.stock-item__shop-ico
+                svg.ico.icon.icon-bag
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-bag')
+              a.stock-item__detail-text-link(href='#') Перейти в магазин
+          .stock-item__colors.stock-colors
+            .stock-item__color.stock-colors__purple
+            .stock-item__color.stock-colors__pink
+            .stock-item__color.stock-colors__yellow
+        include components/stock-item-3
+        a.stock-item.stock-item--banner(href='#')
+          img(src='img/stock-item-banner.jpg', alt='')

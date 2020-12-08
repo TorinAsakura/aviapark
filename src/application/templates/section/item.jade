@@ -1,0 +1,99 @@
+.store.js-store
+    .store__header
+        - if(!_.isEmpty(image_promo))
+            .store__store-img(style="background-image: url(http://api.avia.kknopka.ru/#{image_promo})")
+        - else
+            .store__store-img(style="background-image: url(img/store-default-bg.jpg)")
+        .store__store-img-blackout
+        .store__header-inn
+            .store__logo
+                img(src="http://api.avia.kknopka.ru/#{logo}", alt="")
+            .store__breadcrumbs
+                i.store__share-ico
+                    svg.icon.icon-share-2
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-share-2")
+                span!= section_title+" / "+title
+            .store__controls
+                span.store__control-btn
+                    svg.ico.icon.icon-route.store__control-ico.store__route-ico
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-route")
+                span.store__control-btn
+                    svg.ico.icon.icon-close-2.store__control-ico.store__close-ico.js-store__close
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-close-2")
+            .store__fotos-leng
+                i.store__fotos-ico
+                    svg.icon.icon-picture
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-picture")
+                - if(_.isEmpty(image_gallery) || (count_photo = image_gallery.split(",").length) == 0)
+                    span Нет фото
+                - else
+                    span.store__fotos-link.js-store__fotos-link Посмотреть #{count_photo} фото
+            .badge.badge--favor.badge--store.js-tooltip-top(data-tooltip="Добавить в избранное")
+                .badge__bottom
+                svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                    use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-star")
+    .store__content
+        .store__info
+            .store__text-info
+                h2!= title
+                p= category_title.join(", ")
+            .store__rside-info
+                - if(!_.isEmpty(contact_phone))
+                    .store__phone
+                        i.store__phone-ico
+                            svg.icon.icon-handset
+                                use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-handset")
+                        = contact_phone
+                - if(!_.isEmpty(hours_close))
+                    .store__worktime
+                        i.store__watch-ico
+                            svg.icon.icon-watch
+                                use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-watch")
+                        | Сегодня работает до #{hours_close}:00
+        .store__info
+            .store__tags
+                -if(!_.isEmpty(tags))
+                    h3 tags
+                    = tags.join(" / ")
+            .social.social--store
+                ul.social__list
+                    - if(!_.isEmpty(contact_vk))
+                        li.social__item
+                            a.social__link(href="#{contact_vk}",target="_blank")
+                                svg.social__ico.icon.icon-vk
+                                    use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-vk")
+                    - if(!_.isEmpty(contact_fb))
+                        li.social__item
+                            a.social__link(href="#{contact_fb}",target="_blank")
+                                svg.social__ico.icon.icon-facebook
+                                    use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-facebook")
+                    - if(!_.isEmpty(contact_fb))
+                        li.social__item
+                            a.social__link(href="#{contact_fb}",target="_blank")
+                                svg.social__ico.icon.icon-odnoklassniki
+                                    use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-odnoklassniki")
+        .store__more-info
+            .store__more-info-head
+                ul
+                    li.store__more-info-head-item
+                        i.store__more-info-head-ico.store__more-info-head-watch-ico
+                            svg.icon.icon-time
+                                use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-time")
+                        | Пн-Чт + Вс #{hours_wd_open}:00-#{hours_wd_close}:00 / Пт-Сб #{hours_hd_open}:00-#{hours_hd_close}:00
+                    li.store__more-info-head-item
+                        i.store__more-info-head-ico.store__more-info-head-floor-ico
+                            svg.icon.icon-layers
+                                use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-layers")
+                        | Этаж #{floor.join(", ")}
+                    - if(!_.isEmpty(contact_url))
+                        li.store__more-info-head-item
+                            i.store__more-info-head-ico.store__more-info-head-site-ico
+                                svg.icon.icon-screen
+                                    use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-screen")
+                            a(href="#{contact_url}" ,target="_blank") #{contact_url}
+            != descr
+        .store__show-more-info
+            a.btn.btn--show-more-info.js-btn-show-more-info(href="#") Подробнее
+        .store__items-wrap
+            h3 Что новенького
+            .store__items.js-store__items

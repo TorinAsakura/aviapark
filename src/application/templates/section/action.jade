@@ -1,0 +1,43 @@
+.store.js-store
+    .store__header
+        .store__store-img(style="background-image: url(http://api.avia.kknopka.ru/#{image_promo})")
+        .store__store-img-blackout
+        .store__header-inn
+            .store__logo
+                img(src="http://api.avia.kknopka.ru/#{parent.logo}", alt="")
+            .store__breadcrumbs
+                i.store__share-ico
+                    svg.icon.icon-share-2
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-share-2")
+                | #{parent.section_title} / #{parent.title} / #{type_title}
+            .store__back-to-shop.store__back-to-shop--head
+                a(href="/#{parent.section}/map/#{parent.id}-#{parent.title}") Вернуться к магазину
+                i.ico
+                    svg.icon.icon-leftarrow23
+                        use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-leftarrow23')
+            .store__fotos-leng
+                i.store__fotos-ico
+                    svg.icon.icon-picture
+                        use(xmlns:xlink="http://www.w3.org/1999/xlink", xlink:href="#icon-picture")
+                - if(_.isEmpty(parent.image_gallery) || (count_photo = parent.image_gallery.split(",").length) == 0)
+                    span Нет фото
+                - else
+                    span.store__fotos-link.js-store__fotos-link Посмотреть #{count_photo} фото
+            .badge.badge--favor.badge--store.js-tooltip-top(data-tooltip='Добавить в избранное')
+                .badge__bottom
+                svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+    .store__content
+        .store__wide-info
+            h2 #{title}
+            != parent.descr
+            //.store__show-new-collection-link
+            //    i.ico
+            //        svg.icon.icon-collection
+            //            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+            //    a(href='#') Показать всю новую колекцию
+        .store__back-to-shop.store__back-to-shop--content
+            i.ico
+                svg.icon.icon-leftarrow23
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-leftarrow23')
+            a(href="/#{parent.section}/map/#{parent.id}-#{parent.title}") Вернуться к магазину

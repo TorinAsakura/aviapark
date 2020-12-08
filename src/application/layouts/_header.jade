@@ -1,0 +1,113 @@
+block header
+   header#js-l-header.l-header
+      .l-header-top
+         .centered-content
+            .mobile-nav.navbar-toggle
+            .lang
+               a.lang__link.is-active(href='#') Рус.
+               a.lang__link(href='#') Eng.
+            .shedule
+              svg.shedule__ico.icon.icon-clock
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-clock')
+              .shedule__info-box
+                  .shedule__text-info Сегодня открыт до 22:00
+                  a.shedule__link.js-shedule__link(href='#') Полное расписание
+                  .shedule-information.js-shedule-information.is-hidden
+                     .shedule-information__head Время работы
+                     .shedule-information__info
+                        .shedule-information__current-day.day-3 Сегодня
+                        table.shedule-information__table-info
+                           tr
+                              th Пн
+                              th Вт
+                              th Ср
+                              th Чт
+                              th Пт
+                              th Сб
+                              th Вс
+                           tr
+                              td
+                                 | 10:00
+                                 br
+                                 | 22:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 22:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 22:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 22:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 23:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 23:00
+                              td
+                                 | 10:00
+                                 br
+                                 | 22:00
+            a(href="/")
+               img.site-logo(src='/img/site-logo.png', alt='Aviapark')
+            .social
+               span.social__text Оставайтесь с нами:
+               ul.social__list
+                  li.social__item
+                     a.social__link(href='http://vk.com/aviaparkmsk',target="_blank")
+                        svg.social__ico.icon.icon-vk
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-vk')
+                  li.social__item
+                     a.social__link(href='https://www.facebook.com/aviaparkmsk',target="_blank")
+                        svg.social__ico.icon.icon-facebook
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-facebook')
+                  li.social__item
+                     a.social__link(href='http://instagram.com/aviapark',target="_blank")
+                        svg.social__ico.icon.icon-instagram
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-instagram')
+                  li.social__item
+                     a.social__link(href='http://www.youtube.com/channel/UCofJ4xkjt7mHWPIXA9u9Yxg',target="_blank")
+                        svg.social__ico.icon.icon-youtube
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-youtube')
+                  li.social__item
+                     a.social__link(href='#')
+                        svg.social__ico.icon.icon-odnoklassniki
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-odnoklassniki')
+         svg.ico.icon.icon-arrow-bottom-2.header-arrow
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-arrow-bottom-2')
+      .l-header-nav
+         .centered-content
+            nav.nav
+               ul.nav__list
+                  li.nav__item
+                     a.nav__link(href='/shops') Магазины
+                  li.nav__item
+                     a.nav__link(href='/food') Еда
+                  li.nav__item
+                     a.nav__link(href='/entertain') Развлечения
+                  li.nav__item
+                     a.nav__link(href='/kids') Дети
+                  li.nav__item
+                     a.nav__link(href='/kino') Кино
+                  li.nav__item
+                     a.nav__link(href='/service') Услуги
+                  li.nav__item
+                     a.nav__link(href='/actions') Акции и события
+            a.search-btn.js-search-btn(href='#')
+               svg.search-btn__ico.icon.icon-search
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-search')
+            .phone-number 8 (495) 644-45-44
+            img.header-nav-logo(data-no-retina='', src='/img/nav-logo@2x.png', alt='', width='120', height='13')
+            .header-nav-btns
+               a.btn.btn--normal.btn--fill(href='/about.html#route')
+                  span.btn--fill__text Как добраться
+               a.btn.btn--fill.btn--favor.btn--head-last.js-tooltip-bottom(href='#', data-tooltip='Добавить в избранное')
+                  span.btn--fill__text Избранное
+                  svg.ico.icon.btn--favor__star
+                     use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')

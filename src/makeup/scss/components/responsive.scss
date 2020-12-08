@@ -1,0 +1,471 @@
+@import "../helpers/mixins";
+
+/* --------------- change ------------------- */
+.content_jobs .jobs_list li .jobs_list_text h4 {
+  overflow: hidden;
+}
+
+
+/* --------------- responsive ------------------- */
+.contact_map {
+  @include mq(s) { 
+    width: 100%;
+    height: 400px;
+    border-top: 0;
+  }
+  @include mq(xs) { 
+    width: 100%;
+    height: 400px;
+    border-top: 0;
+  }
+} 
+
+.content_contact {
+  .contact_text_left,.contact_text_right {
+    @include mq(s) {
+      width: 50%;
+    }
+  @include mq(xs) { 
+    width: 100%;
+  }
+    
+  }
+  .contact_text_right {
+    @include mq(s) {
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+      border-right: 1px solid #eaebec;
+      border-top: 1px solid #eaebec;
+    }
+    @include mq(xs) { 
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+      border-right: 1px solid #eaebec;
+      border-left: 1px solid #eaebec;
+    }
+  }
+}
+.content_contact .contact_text_right .contact_right_info .contact_right_info_box .shedule-information__info .shedule-information__table-info {
+  @include mq(xs) { 
+    width: 100% !important;
+  }
+}
+.dealers_header p strong {  
+  @include mq(xs) { 
+    line-height: 1.2;
+  }
+}
+.content_dealers h2 {  
+  @include mq(xs) { 
+    line-height: 1;
+  }
+}
+.content_dealers .dealer_item3 {  
+  @include mq(xs) { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  }
+}
+.content_dealers .download_item3 {  
+  @include mq(xs) { 
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.content_dealers .dealer_item3 {  
+  @include mq(xs) { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  }
+}
+.content_jobs .jobs_list li .jobs_list_text {
+    @include mq(s) {
+      padding: 31px 25px 31px 90px;
+    }
+    @include mq(xs) { 
+        padding: 31px 25px 31px 90px;
+    }
+}
+.content_jobs .jobs_list li .jobs_list_text span {
+    @include mq(s) {
+      left: 26px;
+    }
+    @include mq(xs) { 
+      left: 26px;
+    }
+}
+.content_jobs .jobs_list li .jobs_list_text h4 {
+    @include mq(s) {
+      height: auto;
+      margin: 0 0 35px;
+    }
+    @include mq(xs) { 
+      font-size: 20px;
+      line-height: 1.4;
+      height: auto;
+      margin: 0 0 35px;
+    }
+}
+.filter {
+  @include mq(xs) {
+    display: none;
+  }
+}
+.filter.filter--mobile {
+  z-index: 21;
+  position: relative;
+  display: none;
+    @include mq(xs) { 
+      display: block;
+    }
+}
+.fm--box {
+  width: 120/690*100%;
+  box-sizing: border-box;
+  height: 100%;
+  border-left: 1px solid #E3E3E3;
+  float: left;
+}
+.open-fb {
+  text-align: center;
+  line-height: 63px;
+  display: block;transition: .1s ease; 
+  svg {
+    fill: #384C72;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &:hover {
+    background: #A8F0DE;
+  }
+}
+.open-fb.active {
+  background: #A8F0DE;
+}
+.filter--mobile {
+  .icon-fo-icon-1 {
+    width: 16px;
+    height: 11px;
+  }
+  .icon-fo-icon-2 {
+    width: 16px;
+    height: 11px;
+  }
+  .icon-fo-icon-3 {
+    width: 16px;
+    height: 16px;
+  }
+}
+.fb-right {
+  float: right;
+}
+.fb-floor {
+  margin: 0 120/690*100% 0 359/690*100%;
+  width: auto;
+  float: none;
+  a {
+    font-size: 16px;
+    color: #384C72;
+  }
+}
+.fb-dropdown {
+  text-align: center;
+  top: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.09);
+  display: none;
+}
+.box {
+  display: none;
+  clear: both;
+}
+.box.visible {
+  display: block;
+}
+.tabs {
+  display: flex;
+  margin: 0 26px;
+  padding: 29px 0 26px;
+  li {
+    font-size: 15px;
+    line-height: 29px;
+    color: #384C72;
+    cursor: pointer;
+    width: 50%;
+    border: 1px solid #505464;
+    box-sizing: border-box;
+    border-radius: 0px 4px 4px 0px;
+    float: left;
+    &:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+  }
+  .active {
+    background: #505464;
+    cursor: default;
+    color: #fff;
+  }
+}
+.box-filter-links {
+  li {
+    border-top: 1px solid #E3E3E3;
+  }
+  a {
+    font-size: 15px;
+    line-height: 60px;
+    display: block;
+    color: #384C72;
+    padding: 0 18px;
+  }
+  svg {
+    margin-right: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  .badge__ico--favor {
+    fill: #505464;
+    opacity: .9;
+  }
+}
+.resset-filter {
+  background: #505464;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  border-left: 1px solid #767A8D;
+  float: right;
+  svg {
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.show-filter-result {
+  background: #505464;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  height: 60px;
+  margin-right: 60px;
+  a {
+    font-size: 15px;
+    line-height: 1;
+    color: #fff;
+    width: 50%;
+    height: 60px;
+    display: table;
+    border-left: 1px solid #767A8D;
+    float: left;
+    @include mq(xs) { 
+      font-size: 13px;
+    }
+    &:first-child {
+      border: 0;
+    }
+  }
+  span {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 5px;
+  }
+}
+.box-filter-links {
+  li {
+    border-top: 1px solid #E3E3E3;
+  }
+  a {
+    font-size: 15px;
+    line-height: 60px;
+    display: block;
+    color: #384C72;
+    padding: 0 18px;
+  }
+  svg {
+    margin-right: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  .badge__ico--favor {
+    fill: #505464;
+    opacity: .9;
+  }
+}
+.box .filter-droplist__list {
+  text-align: left;
+}
+.store__items {
+//  width: auto;
+//  max-width: 566px;
+}
+.content--map {
+  position: relative;
+}
+.user-mobile-box {
+  display: none; // вырубил временно
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 50%;
+  left: 50%;
+  margin: -64px 0 0 -64px;
+  border-radius: 50%;
+  z-index: 10;
+}
+.umb-link {
+  background: rgba(216,216,216,.07);
+  border-radius: 50%;
+  border: 1px solid #979797;
+  width: 128px;
+  height: 128px;
+  display: block;
+  position: relative;
+  z-index: 5;
+  span {
+    text-align: center;
+    line-height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    border: 10px solid #F1F1F1;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    margin: -34px 0 0 -34px;
+    top: 50%;
+    left: 50%;
+  }
+  svg {
+    width: 24px;
+    height: 20px;
+    color: #384C72;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.umb-close {
+  background: #fff;
+  text-align: center;
+  line-height: 48px;
+  border: 10px solid #F1F1F1;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  margin: -34px 0 0 -34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: none;
+  svg {
+    width: 24px;
+    height: 20px;
+    color: #DBDBDB;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.umb-box {
+  background: #484E5E;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -160px 0 0 -160px;
+  display: none;
+  a {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    height: 96px;
+    padding: 20px 0 0;
+    svg {
+      color: #A8F0DE;
+      fill: #A8F0DE;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 10px;
+    }
+    span {
+      display: block;
+    }
+  }
+  .go-to-fav {
+    top: 0;
+    left: 50%;
+    margin-left: -45px;
+    width: 90px;
+    height: 126px;
+    padding-top: 38px;
+    svg {
+      width: 27px;
+      height: 27px;
+    }
+  }
+  .go-to-profile {
+    bottom: 0;
+    left: 50%;
+    margin-left: -48px;
+    width: 90px;
+    height: 126px;
+    padding-top: 38px;
+    svg {
+      width: 27px;
+      height: 27px;
+    }
+  }
+  .go-to-parking {
+    margin-top: -48px;
+    top: 50%;
+    right: 0;
+    width: 130px;
+    svg {
+      width: 26px;
+      height: 27px;
+    }
+  }
+  .go-to-around {
+    margin-top: -45px;
+    top: 50%;
+    left: 0;
+    width: 130px;
+    svg {
+      width: 27px;
+      height: 27px;
+    }
+  }
+}
+.separator {
+  background: #D8D8D8;
+  opacity: .1;
+  position: absolute;
+  top: 159px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transform: rotate(45deg);
+}
+.sep-right {
+  left: auto;
+  right: 0;
+  transform: rotate(-45deg);
+}

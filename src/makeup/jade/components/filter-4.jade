@@ -1,0 +1,210 @@
+.filter.filter--favorites
+   .filter__route-item
+      svg.icon.icon-switch
+         use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-switch')
+      svg.icon.icon-fo-icon-2.icon-grid-display
+         use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fo-icon-2')
+   #search.filter__search
+      input.search__text-field.js-search__text-field(type='text', placeholder='Искать по фаворитам')
+      .search-drop.js-search-drop.search-drop--filter.is-hidden
+         include searchlist
+   .filter__item.js-filter__item.filter__action-item
+      i
+         svg.icon.icon-badge
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+      span.fi-text Акции
+   .filter__item.js-filter__item.filter__col-item
+      i
+         svg.icon.icon-collection
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+      span.fi-text Коллекции
+   .filter__item.js-filter__item.filter__events-item
+      i
+         svg.icon.icon-calendar
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+      span.fi-text События
+   .filter__item.js-filter__item.filter__news-item
+      i
+         svg.icon.icon-rupor
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+      span.fi-text Новости
+   .filter__item.js-filter__item.filter__place-item
+      i
+         svg.icon.icon-marker-3
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-marker-3')
+      span.fi-text Места
+   .filter__item.js-filter__item.filter__kino-item
+      i
+         svg.icon.icon-film
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-film')
+      span.fi-text Кино
+   .filter__favor.js-filter__favor
+      .badge.badge--favor
+         .badge__bottom
+         svg.icon.icon-star.badge__ico.badge__ico--favor
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+   .filter__droplist-item
+      .filter__droplist-point.js-filter__droplist-point
+         i.filter__droplist-ico
+         span.fi-text Сортировка
+      .filter-droplist.filter-droplist--favor.js-filter-droplist.is-hidden
+         ul.filter-droplist__list
+            li.filter-droplist__item
+               a.filter-droplist__link(href='#')
+                  | По убыванию
+            li.filter-droplist__item
+               a.filter-droplist__link(href='#')
+                  | По возрастанию
+   .filter__cleaning.js-filter__cleaning
+      span.fi-text Очистить фильтр
+      i
+         svg.icon.icon-close
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close')
+
+.filter.filter--mobile
+   .fm--box
+      a.open-fb.navbar-toggle(href='#')
+         svg.icon.icon-fo-icon-1
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fo-icon-1')
+
+   .fm--box
+      a.open-fb(href='#')
+         svg.icon.icon-fo-icon-2
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fo-icon-2')
+   .fm--box
+      a.open-fb(href='#')
+         svg.icon.icon-fo-icon-3
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fo-icon-3')
+      .fb-dropdown
+         .tab
+            ul.tabs
+               li.active Фильтровать по
+               li Категории
+            .box.visible
+               ul.box-filter-links
+                  li
+                     a(href='#')
+                        svg.icon.icon-badge
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+                        | Акциям
+                  li
+                     a(href='#')
+                        svg.icon.icon-collection
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+                        | Колекциям
+                  li
+                     a(href='#')
+                        svg.icon.icon-calendar
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+                        | Событиям
+                  li
+                     a(href='#')
+                        svg.icon.icon-rupor
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+                        | Новостям
+                  li
+                     a(href='#')
+                        svg.icon.icon-star.badge__ico.badge__ico--favor
+                           use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+                        | Фаворитам
+               a.resset-filter(href='#')
+                  svg.icon.icon-close
+                     use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close')
+               .show-filter-result
+                  a(href='#')
+                     span Показать только на 3 этаже
+                  a(href='#')
+                     span Показать на всех этажах
+            .box
+               ul.filter-droplist__list
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Одежда
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Салон красоты
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Электроника
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Обувь и сумки
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Красота и здоровье
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Мебель и товары для дома
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Услуги
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Гипермаркет
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Универмаг
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Спорт, мода и стиль
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Продукты питания и напитки
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Хранение вещей
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Аксессуары
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Развлечения
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Спорт
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Подарки и ювелирные изделия
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Товары для детей
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Мебель
+                  li.filter-droplist__item
+                     a.filter-droplist__link(href='#')
+                        i
+                        | Кино
+               a.resset-filter(href='#')
+                  svg.icon.icon-close
+                     use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close')
+               .show-filter-result
+                  a(href='#')
+                     span Показать только на 3 этаже
+                  a(href='#')
+                     span Показать на всех этажах
+   .fm--box.fb-right
+      a.open-fb(href='#')
+         svg.ico.icon.icon-search
+          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-search')
+   .fm--box.fb-floor
+      a.open-fb(href='#')
+         <span>3 этаж</span>

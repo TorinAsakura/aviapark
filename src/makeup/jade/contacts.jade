@@ -1,0 +1,147 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Контакты'
+
+block content
+  section.contact_header Контакты
+  section.l-content
+    .centered-content
+      .content_contact
+        .contact_breadcrumb
+          | Aviapark /&nbsp;
+          span Контакты
+        .contact_text_left
+          h3 Центральный офис
+          p.p_location.p_icon
+            i
+              svg.icon.icon-marker-3
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-marker-3')
+            | Москва, Авиаконструктора
+            br
+            | Микояна, 10
+          p.p_phone.p_icon
+            i
+              svg.icon.icon-handset
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-handset')
+            | Телефон:
+            br
+            strong +7 495 139 26 70
+          .clear_line
+          h5 Ксения
+          p
+            | Аренда
+            br
+            strong +7 967 013 02 83
+            br
+            a.a_post_icon.js-tooltip-top(data-tooltip='Yana.Egashina@ru.knightfrank.com', href='#') Почта
+              i
+                svg.icon.icon-envelope
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-envelope')
+          .clear_line
+          h5 Юлия
+          p
+            | Техническая поддержка
+            br
+            strong +7 967 013 02 83
+            br
+            strong +7 967 013 02 83
+            br
+            a.a_post_icon.js-tooltip-top(data-tooltip='Yana.Egashina@ru.knightfrank.com', href='#') Почта
+              i
+                svg.icon.icon-envelope
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-envelope')
+          h3 Пресс-центр
+          h5 Юлия
+          p
+            | Техническая поддержка
+            br
+            strong +7 967 013 02 83
+            br
+            a.a_post_icon.js-tooltip-top(data-tooltip='Yana.Egashina@ru.knightfrank.com', href='#') Почта
+              i
+                svg.icon.icon-envelope
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-envelope')
+        .contact_text_right
+          img(src='img/contact/contact_text_right.jpg')
+          .contact_right_info
+            .contact_right_info_box
+              .shedule-information__info.shedule-information__info--contacts
+                .shedule-information__current-day.day-3 Сегодня
+                table.shedule-information__table-info
+                  tr
+                    th Пн
+                    th Вт
+                    th Ср
+                    th Чт
+                    th Пт
+                    th Сб
+                    th Вс
+                  tr
+                    td.shedule-information__x x
+                    td
+                      | 10:00
+                      br
+                      | 22:00
+                    td
+                      | 10:00
+                      br
+                      | 22:00
+                    td
+                      | 10:00
+                      br
+                      | 22:00
+                    td
+                      | 10:00
+                      br
+                      | 22:00
+                    td
+                      | 10:00
+                      br
+                      | 22:00
+                    td.shedule-information__x x
+          h3 Материалы для прессы
+          p.p_brochure.p_icon
+            i
+              svg.icon.icon-brochure
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-brochure')
+            strong Brochure
+            a.a_download_icon(href='') download (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+          p.p_plane.p_icon
+            i
+              svg.icon.icon-plane
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-plane')
+            strong Map
+            a.a_download_icon(href='') download (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+          p.p_plans.p_icon
+            i
+              svg.icon.icon-plans
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-plans')
+            strong Floor plans
+            a.a_download_icon(href='') floor plan 1 (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a.a_download_icon(href='') floor plan 2 (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a.a_download_icon(href='') floor plan 3 (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+            a.a_download_icon(href='') floor plan 4 (20mb)
+              i
+                svg.icon.icon-download
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-download')
+        #contacts-map.contact_map
+          .contact_map_buttons
+            a.map_button1
+            a.map_button2
+            a.map_button3

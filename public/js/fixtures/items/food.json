@@ -1,0 +1,397 @@
+{
+  "1402": {
+    "id": 1402,
+    "map_id": "4084.3",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Barbeque",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "grill",
+    "category_title": "Гриль-бары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1403": {
+    "id": 1403,
+    "map_id": "4047.1",
+    "logo": "/site/assets/files/1403/baskin-robbins-logo_1.jpg",
+    "title": "Baskin Robbins",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sweets",
+    "category_title": "Мороженое и сладости",
+    "floor": [
+      "4"
+    ]
+  },
+  "1412": {
+    "id": 1412,
+    "map_id": "4011",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Burger King",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1419": {
+    "id": 1419,
+    "map_id": "4010",
+    "logo": "/site/assets/files/1419/chainaya-lozhka.png",
+    "title": "Chainaya Lozhka",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1428": {
+    "id": 1428,
+    "map_id": "2139",
+    "logo": "/site/assets/files/1428/costa_coffe_250.jpg",
+    "title": "Costa Coffee",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "coffee",
+    "category_title": "Кофейни",
+    "floor": [
+      "2"
+    ]
+  },
+  "1447": {
+    "id": 1447,
+    "map_id": "4039.2",
+    "logo": "/site/assets/files/1447/d0_95_d0_9f_20_20_d0_bb_d0_be_d0_b3_d0_be.jpg",
+    "title": "Elki-Palki",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "4"
+    ]
+  },
+  "1495": {
+    "id": 1495,
+    "map_id": "4017",
+    "logo": "/site/assets/files/1495/kfc_1.jpg",
+    "title": "Kfc",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1501": {
+    "id": 1501,
+    "map_id": "4020.1",
+    "logo": "/site/assets/files/1501/unbenannt_1.jpg",
+    "title": "Kroshka Kartoshka",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1520": {
+    "id": 1520,
+    "map_id": "4008.2",
+    "logo": "/site/assets/files/1520/maestro-wok.png",
+    "title": "Maestro Wok",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1540": {
+    "id": 1540,
+    "map_id": "4087.1",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Movenpick",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sweets",
+    "category_title": "Мороженое и сладости",
+    "floor": [
+      "4"
+    ]
+  },
+  "1548": {
+    "id": 1548,
+    "map_id": "4023",
+    "logo": "/site/assets/files/1548/new-york-pizza_2.png",
+    "title": "New York Pizza",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1569": {
+    "id": 1569,
+    "map_id": "3036",
+    "logo": "/site/assets/files/1569/pancho-pizza.jpg",
+    "title": "Pancho Pizza",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "3"
+    ]
+  },
+  "1597": {
+    "id": 1597,
+    "map_id": "4015",
+    "logo": "/site/assets/images/empty.png",
+    "title": "Mia Pizza",
+    "section": "food",
+    "section_title": "Еда",
+    "category": null,
+    "category_title": null,
+    "floor": [
+      "4"
+    ]
+  },
+  "1600": {
+    "id": 1600,
+    "map_id": "4013",
+    "logo": "/site/assets/files/1600/sbarro.jpg",
+    "title": "Sbarro",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1603": {
+    "id": 1603,
+    "map_id": "4091",
+    "logo": "/site/assets/files/1603/ss_logo.png",
+    "title": "Shake Shack",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "news",
+      "event"
+    ]
+  },
+  "1604": {
+    "id": 1604,
+    "map_id": "2144",
+    "logo": "/site/assets/files/1604/unbenannt_4.jpg",
+    "title": "Шоколадница",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "coffee",
+    "category_title": "Кофейни",
+    "floor": [
+      "2"
+    ]
+  },
+  "1612": {
+    "id": 1612,
+    "map_id": "1145,2141,3132",
+    "logo": "/site/assets/files/1612/starbucks.jpg",
+    "title": "Starbucks",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "coffee",
+    "category_title": "Кофейни",
+    "floor": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "1614": {
+    "id": 1614,
+    "map_id": "1143",
+    "logo": "/site/assets/files/1614/stone_age_1.jpg",
+    "title": "Stone Age",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sushi",
+    "category_title": "Суши-бары",
+    "floor": [
+      "1"
+    ]
+  },
+  "1618": {
+    "id": 1618,
+    "map_id": "4040",
+    "logo": "/site/assets/files/1618/low_res_sm_250.jpg",
+    "title": "TGI FRIDAYS",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "4"
+    ],
+    "action_types": [
+      "sale"
+    ]
+  },
+  "1634": {
+    "id": 1634,
+    "map_id": "3791",
+    "logo": "/site/assets/files/1634/tflogo_1.png",
+    "title": "Tutti-Frutti",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sweets",
+    "category_title": "Мороженое и сладости",
+    "floor": [
+      "3"
+    ]
+  },
+  "1649": {
+    "id": 1649,
+    "map_id": "4012",
+    "logo": "/site/assets/files/1649/unbenannt_3.jpg",
+    "title": "Восточный Базар",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1691": {
+    "id": 1691,
+    "map_id": "4009",
+    "logo": "/site/assets/files/1691/image_manager_rex_mediapool_maximized_teremok.jpg",
+    "title": "Теремок",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "foodcourt",
+    "category_title": "Фуд-корт",
+    "floor": [
+      "4"
+    ]
+  },
+  "1692": {
+    "id": 1692,
+    "map_id": "4030",
+    "logo": "/site/assets/files/1692/image_manager_rex_mediapool_maximized_juicemaster.jpg",
+    "title": "Фреш-бар Juice master",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "bar",
+    "category_title": "Бары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1693": {
+    "id": 1693,
+    "map_id": "4033",
+    "logo": "/site/assets/files/1693/image_manager_rex_mediapool_maximized_shurpa.jpg",
+    "title": "Чайхана «ШУРПА»",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "4"
+    ]
+  },
+  "1695": {
+    "id": 1695,
+    "map_id": "4095",
+    "logo": "/site/assets/files/1695/image_manager_rex_mediapool_maximized_yaposha.jpg",
+    "title": "Япоша",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sushi",
+    "category_title": "Суши-бары",
+    "floor": [
+      "4"
+    ]
+  },
+  "1697": {
+    "id": 1697,
+    "map_id": "4087.3",
+    "logo": "/site/assets/files/1697/br_300.jpg",
+    "title": "Bubbleology",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sweets",
+    "category_title": "Мороженое и сладости",
+    "floor": [
+      "4"
+    ]
+  },
+  "1707": {
+    "id": 1707,
+    "map_id": "4007.3",
+    "logo": "/site/assets/files/1707/dippin_dots_250.jpg",
+    "title": "Dippin Dots",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "sweets",
+    "category_title": "Мороженое и сладости",
+    "floor": [
+      "4"
+    ]
+  },
+  "1723": {
+    "id": 1723,
+    "map_id": "2030",
+    "logo": "/site/assets/files/1723/logo_m_001-.jpg",
+    "title": "Маэстро де Олива",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "2"
+    ],
+    "action_types": [
+      "news"
+    ]
+  },
+  "1810": {
+    "id": 1810,
+    "map_id": "4015",
+    "logo": "/site/assets/files/1810/250.jpg",
+    "title": "Pizza Mia",
+    "section": "food",
+    "section_title": "Еда",
+    "category": "restaurant",
+    "category_title": "Рестораны",
+    "floor": [
+      "4"
+    ]
+  }
+}

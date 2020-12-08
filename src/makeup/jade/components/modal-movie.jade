@@ -1,0 +1,221 @@
+//Modal
+#link-modal-cinema.modal.fade(tabindex='-1', role='dialog', aria-labelledby='link-modal-cinema', aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .modal-header.films-img-bg
+                a.modal-header-info.modal-header-info-name
+                    span.meta-shop-category кинотеатр
+                    | &#32;/&#32;
+                    span.meta-shop-name Каро
+                a.modal-header-info.modal-header-info-photo
+                    | Посмотреть&#32;
+                    span.meta-numbers-photo 4
+                    | &#32;фото
+                .shop-img-helper
+                img.shop-img-label(src='img/films-brands/karo.png')
+                i.avv.avv-2x.av-cross2.avv-inverse.pull-right(alt='Close', type='button', data-dismiss='modal', aria-label='Close')
+                .groupe-favourite.pull-bottom-right(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                    a.avv-stack
+                        i.avv.av-circle.avv-stack-2x.avv-dark-background.avv-margin
+                        i.avv.av-star.avv-stack-1x.avv-color-active
+            .modal-body.modal-scroll-area
+                .movie-row-container.av-margin-bottom-remove
+                    .modal-movie-container
+                        .modal-movie-slider
+                            div
+                                img(src='img/films-slider/1.png')
+                            div
+                                img(src='img/films-slider/2.png')
+                            div
+                                img(src='img/films-slider/3.png')
+                            div
+                                img(src='img/films-slider/4.png')
+                            div
+                                img(src='img/films-slider/5.png')
+                    .row-information.row-information-movie
+                        ul.modal-movie-info-block
+                            li
+                                a.shop-tel_number(href='tel:+7495214182') +7 495 214-182
+                        ul.modal-movie-info-block
+                            li
+                                p.shop-work_time Сегодня работает до 23:00
+                    .row-information.row-information-movie.row-shadow-remove.av-margin-top-small
+                        ul.shop-info-block
+                            li
+                                a.shop-parking_place Удобный заезд в автопарк
+                        ul.shop-info-block
+                            li
+                                a.shop-parking_path Показать удобную парковку
+                //TODO: make accordion with animate
+                #modal-accordion
+                    .collapse.collapseTwo
+                        .well
+                            ul.shop-all-info
+                                li
+                                    p.shop-working_week Пн-Чт + Вс 10:00-22:00 / Пт-Сб 10:00-23:00
+                                li
+                                    p.shop-level 1 этаж
+                                li
+                                    a.shop-site_link(href='www.hm.com') www.hm.com
+                            .modal-social
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-vk.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-fb.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-insta.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-youtube.avv-stack-1x.avv-social-topbar
+                                span.avv-stack.avv-lg.social-hover-animation
+                                    i.avv.av-circle-empty.avv-stack-2x.avv-margin
+                                    i.avv.av-ok.avv-stack-1x.avv-social-topbar
+                        .shop-all-hr
+                        .well
+                            p 123
+                            p 123
+                    .wrapper-show_more
+                        button.btn-av.btn-show_more(href='#', data-toggle='collapse', data-parent="#modal-accordion",
+                        role='tab', data-target=".collapseTwo", aria-expanded='false') Показать еще
+
+                .modal-movie-days
+                    span Сеансы на сегодня
+                .movie-row
+                    .groupe-favourite.pull-right(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                        a.avv-stack
+                            i.avv.av-circle.avv-stack-2x.avv-dark-background.avv-margin
+                            i.avv.av-star.avv-stack-1x.avv-color-active
+                    h3.modal-movie-title мстители: эпоха альтрона
+                    p.modal-movie-tags 18+,Боевик,Приключенческие фильмы,Фэнтази,2015г
+                    p.modal-movie-type Сеансы 3D от 417 руб.
+                    .modal-movie-perform
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 10:30
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 11:30
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 12:30
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 13:30
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 14:00
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 15:30
+                        label
+                            input.hidden(type='radio', name='avengers', disabled)
+                            span 16:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 17:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 18:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 19:00
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 20:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 21:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 22:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 23:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 24:00
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 25:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 26:30
+                    p.modal-movie-type Сеансы RealD от 600 руб.
+                    .modal-movie-perform
+                        label
+                            input.hidden(type='radio', name='avengers-2', disabled)
+                            span 10:30
+                        label
+                            input.hidden(type='radio', name='avengers-2', disabled)
+                            span 11:30
+                        label
+                            input.hidden(type='radio', name='avengers-2', disabled)
+                            span 12:30
+                        label
+                            input.hidden(type='radio', name='avengers-2', disabled)
+                            span 13:30
+                        label
+                            input.hidden(type='radio', name='avengers-2', disabled)
+                            span 14:00
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 20:30
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 21:30
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 22:30
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 23:30
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 24:00
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 25:30
+                        label
+                            input.hidden(type='radio', name='avengers-2')
+                            span.working 26:30
+
+                .movie-row
+                    .groupe-favourite.pull-right(data-toggle='tooltip', data-placement='bottom', title='Добавить в избранное')
+                        a.avv-stack
+                            i.avv.av-circle.avv-stack-2x.avv-dark-background.avv-margin
+                            i.avv.av-star.avv-stack-1x.avv-color-active
+                    h3.modal-movie-title Одной левой
+                    p.modal-movie-tags 12 +, Комедии, 2015 г.
+                    p.modal-movie-type Сеансы 3D от 417 руб.
+                    .modal-movie-perform
+                        label
+                            input.hidden(type='radio', name='oneleft', disabled)
+                            span 10:30
+                        label
+                            input.hidden(type='radio', name='oneleft', disabled)
+                            span 11:30
+                        label
+                            input.hidden(type='radio', name='oneleft', disabled)
+                            span 15:30
+                        label
+                            input.hidden(type='radio', name='oneleft', disabled)
+                            span 16:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 17:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 18:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 24:00
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 25:30
+                        label
+                            input.hidden(type='radio', name='avengers')
+                            span.working 26:30
+

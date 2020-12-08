@@ -1,0 +1,213 @@
+extends layouts/layout
+
+block vars
+  - var title = 'Кино'
+  - var footerIsDisabled = true
+
+block content
+  #map.map--kino
+  script(type='text/javascript').
+    window.onload = function () {
+      Map.init(true, 2);
+    };
+  section.l-content.theme--dark.content--kino-map
+    .centered-content
+      .store.js-store.cinema
+        .store__header
+          .store__store-img(style='background-image: url(img/kino-head-bg.jpg)')
+          .store__header-inn
+            .store__logo
+              img(src='img/logos/kapo.jpg', alt='')
+            .store__breadcrumbs
+              i.store__share-ico
+                svg.icon.icon-share-2
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-share-2')
+              |                 кинотеатр / Каро
+            .store__controls
+              span.store__control-btn
+                svg.ico.icon.icon-route.store__control-ico.store__route-ico
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-route')
+              span.store__control-btn
+                svg.ico.icon.icon-close-2.store__control-ico.store__close-ico.js-store__close
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-close-2')
+            .store__fotos-leng
+              i.store__fotos-ico
+                svg.icon.icon-picture
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-picture')
+              span.store__fotos-link.js-store__fotos-link Посмотреть 1 видео и 4 фото
+            .badge.badge--favor.badge--store.js-tooltip-top(data-tooltip='Добавить в избранное')
+              .badge__bottom
+              svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+            svg.icon.icon-play.cinema__play
+              use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-play')
+        .store__content
+          .cinema__info
+            .cinema__lside-info
+              h2.cinema__title.cinema__title--about
+                i.cinema__about-ico
+                  svg.icon.icon-film
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-film')
+                |                   О кинотеатре
+              .swiper-container.cinema__about-slider.js-cinema__about-slider
+                .swiper-wrapper
+                  .swiper-slide
+                    .cinema__about-text-title
+                      span 17
+                      |  кинозалов разных форматов
+                    .cinema__about-text
+                      | Кинотеатр занимает более 10 000 кв.м. на 4 этаже ТЦ «АВИАПАРК» и вмещает до 4000 человек.
+                  .swiper-slide
+                    .cinema__about-text-title
+                      span 5
+                      |  супер фильмов
+                    .cinema__about-text ТЦ «АВИАПАРК».
+                .cinema__about-slider-pagination.js-cinema__about-slider-pagination
+            .cinema__rside-info
+              .store__rside-info.store__rside-info--cinema-info
+                .store__phone
+                  i.store__phone-ico
+                    svg.icon.icon-handset
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-handset')
+                  |                     +495-232-11-57
+                .store__worktime
+                  i.store__watch-ico
+                    svg.icon.icon-watch
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-watch')
+                  |                     Сегодня работает до 23:00
+              .cinema__info-links.cinema__rside-padding
+                ul
+                  li
+                    a(href='#')
+                      i.ico-1
+                        svg.icon.icon-fleet
+                          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-fleet')
+                      | Удобый заезд в автопарк
+                  li
+                    a(href='#')
+                      i.ico-2
+                        svg.icon.icon-route-2
+                          use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-route-2')
+                      | Показать удобную парковку
+          .store__more-info
+            .store__more-info-head
+              ul
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-watch-ico
+                    svg.icon.icon-time
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-time')
+                  | Пн-Чт + Вс 10:00-22:00 / Пт-Сб 10:00-23:00
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-floor-ico
+                    svg.icon.icon-layers
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-layers')
+                  | Этаж 1
+                li.store__more-info-head-item
+                  i.store__more-info-head-ico.store__more-info-head-site-ico
+                    svg.icon.icon-screen
+                      use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-screen')
+                  | www.h&m.com
+            p
+              | С 2004 года компания ввела в практику выпуск коллекций в сотрудничестве с известными дизайнерами. Так, в ноябре 2004 года в некоторых магазинах H&M была представлена коллекция Карла Лагерфельда. Пресса сообщала об огромном ажиотаже на данные вещи, в крупных городах коллекция была распродана в течение часа.
+            p
+              | Далее, в ноябре 2005 года была выпущена коллекция от Стеллы Маккартни, в ноябре 2006 — коллекция от авангардного нидерландского модного дома Viktor & Rolf (англ. Viktor & Rolf). В марте 2006 года компания начала сотрудничество с Мадонной.
+            p
+              | В июне 2007 года разработчик игр Maxis совместно с H&M выпустила дополнение к игре The Sims 2 — H&M Fashion Stuff, в которых были включены 60 моделей одежды и 3 магазина H&M.
+            p
+              | Далее, в ноябре 2007 года была представлена коллекция итальянского дизайнера Роберто Кавалли. Также в 2007 году в Шанхае была представлена коллекция купальников от Кайли Миноуг. Осенью 2008 года была выпущена коллекция в сотрудничестве с японским брендом Comme des Garçons (англ. Comme des Garçons).
+          .store__show-more-info
+            a.btn.btn--show-more-info.js-btn-show-more-info(href='#') Подробнее
+          .films
+            .films__filter
+              i.films__filter-ico
+                svg.icon.icon-calendar-2
+                  use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar-2')
+              |                 Сеансы на сегодня
+              i.films__filter-drop-ico
+            .films__list
+              .film
+                .film__name Мстители: Эра Альтрона
+                .film__desc 18 +, Боевики, Приключенческие фильмы,Фэнтези, 2015 г.
+                .film__sessions
+                  .film__session
+                    .film__session-title Сеансы 3D от 417 руб.
+                    ul.film__session-timelist
+                      li.film__session-time 10:30
+                      li.film__session-time 11:30
+                      li.film__session-time 12:30
+                      li.film__session-time 13:30
+                      li.film__session-time 14:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 15:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 16:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 17:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 18:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 19:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 20:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 21:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 22:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 23:30
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 24:30
+                  .film__session
+                    .film__session-title Сеансы RealD от 600 руб.
+                    ul.film__session-timelist
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 15:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 16:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 17:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 18:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 19:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 20:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 21:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 22:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 23:00
+                      li.film__session-time.film__session-time--next-session
+                        a(href='#') 24:00
+                .badge.badge--favor.badge--film.js-tooltip-top(data-tooltip='Добавить в избранное')
+                  .badge__bottom
+                  svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+              .film
+                .film__name Мстители: Эра Альтрона
+                .film__desc 18 +, Боевики, Приключенческие фильмы,Фэнтези, 2015 г.
+                .film__sessions
+                  .film__session
+                    .film__session-title Сеансы 3D от 417 руб.
+                    ul.film__session-timelist
+                      li.film__session-time 10:30
+                      li.film__session-time 11:30
+                      li.film__session-time 12:30
+                      li.film__session-time 13:30
+                      li.film__session-time 14:30
+                      li.film__session-time.film__session-time--next-session 15:30
+                      li.film__session-time.film__session-time--next-session 16:30
+                      li.film__session-time.film__session-time--next-session 17:30
+                      li.film__session-time.film__session-time--next-session 18:30
+                      li.film__session-time.film__session-time--next-session 19:30
+                      li.film__session-time.film__session-time--next-session 20:30
+                      li.film__session-time.film__session-time--next-session 21:30
+                      li.film__session-time.film__session-time--next-session 22:30
+                      li.film__session-time.film__session-time--next-session 23:30
+                      li.film__session-time.film__session-time--next-session 24:30
+                .badge.badge--favor.badge--film.js-tooltip-top(data-tooltip='Добавить в избранное')
+                  .badge__bottom
+                  svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+      include components/gallery

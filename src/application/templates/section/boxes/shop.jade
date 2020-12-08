@@ -1,0 +1,50 @@
+.badge.badge--favor.badge--favor-stock.js-tooltip-top(data-tooltip='Удалить из избранного')
+    .badge__bottom
+    svg.ico.icon.icon-star.badge__ico.badge__ico--favor
+        use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+- if(id == 1492){url = "/kino"}else{url = "/"+section+"/map/"+id+"-"+title}
+a.stock-item__img-link(href="#{url}")
+    img.stock-item__img(data-no-retina='', data-src="http://api.avia.kknopka.ru/#{logo}", alt='')
+    .stock-item__hidden-info
+        ul
+            - if(_.indexOf(action_types, 'sale') >= 0)
+                li
+                    i.ico.ico-yellow.js-tooltip-top(data-tooltip='Акции')
+                        svg.icon.icon-badge
+                            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+            - if(_.indexOf(action_types, 'collection') >= 0)
+                li
+                    i.ico.ico-aquamarine.js-tooltip-top(data-tooltip='Коллекции')
+                        svg.icon.icon-collection
+                            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+            - if(_.indexOf(action_types, 'event') >= 0)
+                li
+                    i.ico.ico-purple.js-tooltip-top(data-tooltip='События')
+                        svg.icon.icon-calendar
+                            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+            - if(_.indexOf(action_types, 'news') >= 0)
+                li
+                    i.ico.ico-pink.js-tooltip-top(data-tooltip='Новость')
+                        svg.icon.icon-calendar
+                            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+.stock-item__info
+    .stock-item__desc!= title
+    .stock-item__details
+        - if(section == 'food')
+            i.stock-item__burger-ico
+                svg.ico.icon.icon-burger
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-burger')
+        - else
+            i.stock-item__shop-ico
+                svg.ico.icon.icon-bag
+                    use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-bag')
+        a.stock-item__detail-text-link(href="#{url}") Перейти в #{category_link}
+.stock-item__colors.stock-colors
+    - if(_.indexOf(action_types, 'sale') >= 0)
+        .stock-item__color.stock-colors__yellow
+    - if(_.indexOf(action_types, 'collection') >= 0)
+        .stock-item__color.stock-colors__aquamarine
+    - if(_.indexOf(action_types, 'event') >= 0)
+        .stock-item__color.stock-colors__purple
+    - if(_.indexOf(action_types, 'news') >= 0)
+        .stock-item__color.stock-colors__pink

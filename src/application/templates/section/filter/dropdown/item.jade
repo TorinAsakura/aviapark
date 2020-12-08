@@ -1,0 +1,32 @@
+.search-drop__item(data-itemid='#{id}')
+    .search-drop__brand-img-container
+        img.search-drop__brand-img(data-src='http://api.avia.kknopka.ru#{logo}', alt='')
+    .search-drop__brand
+        .search-drop__brand-name= title
+        .search-drop__brand-info= category_title
+    //.search-drop__cost
+    //    span.search-drop__cost-highlight $
+    //    | $$
+    .search-drop__storey
+        span.search-drop__storey-val= floor.join(', ')
+        |  этаж
+    .search-drop__offers
+        i.search-drop__offer-badge.search-drop__badge-ico.js-tooltip-top(data-tooltip='Акции', class= _.indexOf(action_types, 'sale') < 0 ? "is-hidden" : ""  )
+            svg.icon.icon-badge
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-badge')
+        i.search-drop__offer-collection.search-drop__collection-ico.js-tooltip-top(data-tooltip='Коллекции', class= _.indexOf(action_types, 'collection') < 0 ? "is-hidden" : ""  )
+            svg.icon.icon-collection
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-collection')
+        i.search-drop__offer-calendar.search-drop__calendar-ico.js-tooltip-top(data-tooltip='События', class= _.indexOf(action_types, 'event') < 0 ? "is-hidden" : ""  )
+            svg.icon.icon-calendar
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-calendar')
+        i.search-drop__offer-rupor.search-drop__rupor-ico.js-tooltip-top(data-tooltip='Новости', class= _.indexOf(action_types, 'news') < 0 ? "is-hidden" : ""  )
+            svg.icon.icon-rupor
+                use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-rupor')
+    .badge.badge--favor.badge--favor-search.js-tooltip-top( data-tooltip="Добавить в избранное" )
+        svg.icon.icon-star.badge__ico--favor-active
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+        .badge__bottom
+        svg.icon.icon-star.badge__ico.badge__ico--favor
+            use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-star')
+    .search-drop__parking.is-hidden С
